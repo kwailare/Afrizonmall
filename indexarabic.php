@@ -257,7 +257,7 @@
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Nike tee shirt.html">Nike T-Shirt</a>
+								<a href="Nike tee ar.html">Nike T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه  4,500 </p>
 						</div>
@@ -279,7 +279,7 @@
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Dior tee shirt.html">Dior T-Shirt</a>
+								<a href="Dior tee ar.html">Dior T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 6,300</p>
 						</div>
