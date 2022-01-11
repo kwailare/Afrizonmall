@@ -1,0 +1,33 @@
+<?php
+
+	$search = $_POST['srch']
+
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$db = "search";
+	 
+	$conn = new mysqli($servername,$username,$password,$db);
+
+	if ($conn->connect_error){
+		die("Connection Failed: ". $conn->connect-error);
+	}
+
+	$sql = "select * from t-shirt where like '%$search%'";
+
+	$result = $conn->query($sql);
+	if($result->num_rows > 0){
+		whike($row = $result->fetch_assoc() ){
+			echo $row["name"]."
+			".$row["age"]." ".$row["gender"]."<br>";
+		}
+	} else{
+		echo "0 Records found!";
+	}
+
+	$conn->close();
+
+?>
+
+
+
