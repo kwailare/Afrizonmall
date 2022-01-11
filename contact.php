@@ -50,33 +50,37 @@
 			<!-- Contact starts -->
 			<div class="tb-contact pull-left">
 				<!-- Email -->
-				<i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:contact@domain.com.ng">info@swiftmart.com.ng</a>
+				<i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:info@swiftmart.com.ng">info@swiftmart.com.ng</a>
 				&nbsp;&nbsp;
 				<!-- Phone -->
-				<i class="fa fa-phone color"></i> &nbsp; +249 12 154 0178
+				<i class="fa fa-phone color"></i> &nbsp; 012 154 0178
 			</div>
 			<!-- Contact ends -->
+
+
 
 			<!-- Social media starts -->
 			<div class="tb-social pull-right">
 				<div class="brand-bg text-right">
 					<!-- Brand Icons -->
-					<a href="https://web.facebook.com/Afrizon-Mall-103416948667465" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
+					<a href="https://www.facebook.com/Afrizon-Mall-103416948667465" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
 					<a href="#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
 					<a href="https://www.instagram.com/swift_mart_ng/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
 				</div>
+				<!-- Social media ends -->
 			</div>
-			<!-- Social media ends -->
-
-			<div class="clearfix">
+			<!-- Langauge starts -->
 			<div class="tb-language dropdown pull-right">
 				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
 				<!-- Dropdown menu with languages -->
 				<ul class="dropdown-menu dropdown-mini" role="menu">
-					<li><a href="contact  arabic.php">العربية</a></li>
+					<li><a href="indexarabic.php">Arabic</a></li>
 				</ul>
 			</div>
-			</div>
+			<!-- Language ends -->
+			
+
+			<div class="clearfix"></div>
 		</div>
 	</div>
 
@@ -91,21 +95,28 @@
 				<div class="col-md-4 col-sm-4">
 					<!-- Logo section -->
 					<div class="logo">
-						<h1><a href="index.php"><i class="fa fa-shopping-cart color"></i> Afrizon Mall<p style="font-size: small; font-style: italic; margin-left: 40px;margin-top: -20px; color:deepskyblue;">The African Amazon</p></a></h1>
+						<h1><a href="index.php"><marquee><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"><span style="font-size: big; font-style: italic; margin-left: 40px; color:deepskyblue;">The African Amazon</span></marquee></a></h1>
 					</div>
 				</div>
 				<div class="col-md-6 col-md-offset-2 col-sm-5 col-sm-offset-3 hidden-xs">
 					<!-- Search Form -->
 					<div class="header-search">
-						<form>
+						<form action="search.php" method="GET">
 							<!-- Input Group -->
 							<div class="input-group">
-								<input type="text" class="form-control" placeholder="Search..." autocomplete="on">
+								<input type="text" name="srch" required value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>" class="form-control" placeholder="Search..." autocomplete="on">
 										<span class="input-group-btn">
-											<button class="btn btn-color" id="srch" type="button"><i class="fa fa-search color"></i></button>
+										<button type="submit" class="btn btn-color"><i class="fa fa-search color"></i></button>
 										</span>
 							</div>
+
 						</form>
+
+
+			
+	
+
+
 					</div>
 				</div>
 			</div>
@@ -120,14 +131,15 @@
 						<!-- Main menu -->
 						<li><a href="index.php">Home</a></li>
 						<!-- <li><a href="laptops.html">Laptops</a></li> -->
-						<li><a href="Clothing.html">Clothing</a></li>
+						<!-- <li><a href="Clothing.html">Clothing</a></li> -->
+						<!-- <li><a href="electronics.html">Electronics</a></li> -->
 						<li><a href="about.html">About Us</a></li>
-						<!-- <li><a href="accessories.html">Accessories</a></li> -->
-					<!--	<li><a href="contact.php">Contact Us</a></li>-->
+						<li><a href="contact.php">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
+					
 
 		<!-- Navigation ends -->
 
@@ -251,10 +263,10 @@
 				<div class="footer-columns-entry">
 					<div class="row">
 						<div class="col-md-3">
-							<a href="index.php"> <h1><i class="fa fa-shopping-cart color"></i> Afrizon Mall</h1></a>
-							<div class="footer-description" style="font-style: italic;">...The Amazon Of Africa</div>
-							<div class="footer-address"><i class="fa fa-map-marker color"></i> Khartoum,Sudan.<br> <i class="fa fa-phone color"></i> Phone: +249 12 154 0178<br> <i class="fa fa-envelope color"></i> Email: <a href="mailto:info@swiftmart.com.ng">info@swiftmart.com.ng</a><br>
-								<a target="_blank" href="https://www.swiftmart.com.ng/"><b>www.Afrizonmall.com</b></a>
+							<a href="index.php"><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"></a>
+							<div class="footer-description" style="font-style: italic;color:deepskyblue;">...The Amazon Of Africa</div>
+							<div class="footer-address"><i class="fa fa-map-marker color"></i> Sudan<br> <i class="fa fa-phone color"></i> Phone: 012 154 0178<br> <i class="fa fa-envelope color"></i> Email: <a href="mailto:info@afrizonmall.com">info@afrizonmall.com</a><br>
+								<a target="_blank" href="https://www.afrizonmall.com/"><b>www.afrizonmall.com</b></a>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -263,8 +275,13 @@
 							<h3 class="column-title">Customer Care</h3>
 							<ul class="column">
 								<li><a href="Terms and conditions.html">Terms & Condition</a></li>
-								<li><a href="contact.php">Contact Us</a></li></ul>
-							<div class="clear"></div>
+								<li><a href="contact.html">Contact Us</a></li>
+							
+							</ul>
+								
+							<div class="clear">
+								
+							</div>
 						</div>
 						
 						
@@ -314,11 +331,11 @@
 									<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
 									<!-- Dropdown menu with languages -->
 									<ul class="dropdown-menu dropdown-mini" role="menu">
-										<li><a href="contact  arabic.php"> العربية</a></li>
+										<li><a href="about arabic.html"> العربية</a></li>
 									</ul>
 								</div>
 							</div>
-							<div style="text-align: center;" class="copyright"><h5>&copy;Afrizon Group All rights reserved</h5> </div>
+							<div style="text-align: center;" class="copyright">Created by <h5>Wailcorp Dev. All right reserved</h5> </div>
 						</div>
 					</div>
 				</div>

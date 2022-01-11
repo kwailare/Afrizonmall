@@ -11,12 +11,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Fav icon -->
-	<link rel="shortcut icon" href="img/favicon_io/favicon.ico">
+	<link rel="shortcut icon" href="img/photos/Logo.png">
 
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,900,700,700italic,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900' rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,900,700,700italic,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,600' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -40,6 +43,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/revolutionslider_settings.css" media="screen" />
+	
 
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
@@ -80,14 +84,13 @@
 			<div class="tb-social pull-right">
 				<div class="brand-bg text-right">
 					<!-- Brand Icons -->
-					<a href="https://www.facebook.com/Swiftmart-ng-111011497398438" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
+					<a href="https://www.facebook.com/Afrizon-Mall-103416948667465" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
 					<a href="#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
 					<a href="https://www.instagram.com/swift_mart_ng/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
 				</div>
+				<!-- Social media ends -->
 			</div>
-			<!-- Social media ends -->
-
-			<div class="clearfix">
+			<!-- Langauge starts -->
 			<div class="tb-language dropdown pull-right">
 				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> العربية <i class="fa fa-angle-down color"></i></a>
 				<!-- Dropdown menu with languages -->
@@ -95,7 +98,10 @@
 					<li><a href="index.php">English</a></li>
 				</ul>
 			</div>
-			</div>
+			<!-- Language ends -->
+			
+
+			<div class="clearfix"></div>
 		</div>
 	</div>
 
@@ -110,22 +116,25 @@
 				<div class="col-md-4 col-sm-4">
 					<!-- Logo section -->
 					<div class="logo">
-						<h1><a href="index.php"><i class="fa fa-shopping-cart color"></i> Afrizon Mall<p style="font-size: small; font-style: italic; margin-left: 40px;margin-top: -20px; color:deepskyblue;">The African Amazon</p></a></h1>
+						<h1><a href="index.php"><marquee><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"><span style="font-size: big; font-style: italic; margin-left: 40px; color:deepskyblue;">The African Amazon</span></marquee></a></h1>
 					</div>
 				</div>
 				<div class="col-md-6 col-md-offset-2 col-sm-5 col-sm-offset-3 hidden-xs">
 					<!-- Search Form -->
 					<div class="header-search">
-						<form action="search.php" method="post">
+						<form action="search.php" method="GET">
 							<!-- Input Group -->
 							<div class="input-group">
-								<input type="text" name="srch" class="form-control" placeholder="Search..." autocomplete="on">
+								<input type="text" name="srch" required value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>" class="form-control" placeholder="Search..." autocomplete="on">
 										<span class="input-group-btn">
-										<button class="btn btn-color" type="submit" name="submit"><i class="fa fa-search color"></i></button>	
+										<button type="submit" class="btn btn-color"><i class="fa fa-search color"></i></button>
 										</span>
 							</div>
 
 						</form>
+
+
+			
 	
 
 
@@ -141,16 +150,17 @@
 				<div class="navy">
 					<ul>
 						<!-- Main menu -->
-						<li><a href="index.php">الصفحة الرئيسية</a></li>
+						<li><a href="index.php">الصفحة الرئيسية </a></li>
 						<!-- <li><a href="laptops.html">Laptops</a></li> -->
-						<li><a href="Clothing arabic.html">ملابس</a></li>
+						<!-- <li><a href="Clothing.html">Clothing</a></li> -->
 						<!-- <li><a href="electronics.html">Electronics</a></li> -->
-						<li><a href="about arabic.html">معلومات عنا</a>
-						<li><a href="contact arabic.php">اتصل بنا</a></li>
+						<li><a href="about arabic.html">معلومات عنا</a></li>
+						<li><a href="contact  arabic.php">اتصل بنا</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
+					
 
 		<!-- Navigation ends -->
 
@@ -165,7 +175,17 @@
 <main class="main-container">
 
 	<!-- new collection directory -->
-	<section id="content-block" class="slider_area">
+	
+
+	
+
+<!-- start main content -->
+<main class="main-container">
+<section class="men_area pt-40">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 col-md-9 col-sm-9">
+			<section id="content-block" class="slider_area">
 		<div class="container">
 			<div class="content-push">
 				<div class="row">
@@ -182,8 +202,8 @@
 									<div class="tp-banner tp-banner0">
 										<ul>
 											<!-- SLIDE  -->
-											<li data-link="Clothing arabic.html" data-target="_self" data-transition="flyin" data-slotamount="7" data-masterspeed="500" data-saveperformance="on">
-												<!-- MAIN IMAGE --><img src="img/dummy.png" alt="slidebg1" data-lazyload="img/photos/Background/bg.jpg" data-bgposition="left center" data-kenburns="off" data-duration="14000" data-ease="Linear.easeNone" data-bgpositionend="right center" />
+											<li data-link="#" data-target="_self" data-transition="flyin" data-slotamount="7" data-masterspeed="500" data-saveperformance="on">
+												<!-- MAIN IMAGE --><img src="img/dummy.png" alt="slidebg1" data-lazyload="img/photos/Clothing/Tshirts_with-prints-small-680x450.jpg" data-bgposition="left center" data-kenburns="off" data-duration="14000" data-ease="Linear.easeNone" data-bgpositionend="right center" />
 												<!-- LAYER NR. 1 -->
 												<div class="tp-caption very_big_white randomrotate customout rs-parallaxlevel-0" data-x="270" data-y="140" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="500" data-end="4800" data-endspeed="300" data-easing="easeInOutBack" data-endeasing="easeOutBack" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 2;"> Trendy </div>
 												<!-- LAYER NR. 2 -->
@@ -192,8 +212,8 @@
 												<div class="tp-caption large_white_text randomrotate customout rs-parallaxlevel-0" data-x="355" data-y="363" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="1200" data-end="4800" data-endspeed="300" data-easing="easeInOutBack" data-endeasing="easeOutBack" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 2;"> SHOP NOW </div>
 
 											</li>
-											<li data-link="Clothing arabic.html" data-target="_self" data-transition="3dcurtain-horizontal" data-slotamount="7" data-masterspeed="500" data-saveperformance="on">
-												<!-- MAIN IMAGE --><img src="img/dummy.png" alt="slidebg1" data-lazyload="img/photos/Phones/iphone-11-p.png" data-bgposition="left center" data-kenburns="off" data-duration="14000" data-ease="Linear.easeNone" data-bgpositionend="right center" />
+											<li data-link="#" data-target="_self" data-transition="3dcurtain-horizontal" data-slotamount="7" data-masterspeed="500" data-saveperformance="on">
+												<!-- MAIN IMAGE --><img src="img/dummy.png" alt="slidebg1" data-lazyload="img/photos/Clothing/tshirt-business-header.jpg" data-bgposition="left center" data-kenburns="off" data-duration="14000" data-ease="Linear.easeNone" data-bgpositionend="right center" />
 												<!-- LAYER NR. 1 -->
 												<div class="tp-caption very_big_white fade customout rs-parallaxlevel-0" data-x="270" data-y="140" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="500" data-end="4800" data-endspeed="300" data-easing="easeOutBack" data-endeasing="easeOutBack" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 2;"> Trendy </div>
 												<!-- LAYER NR. 2 -->
@@ -201,15 +221,7 @@
 												<!-- LAYER NR. 3 -->
 												<div class="tp-caption large_white_text fade customout rs-parallaxlevel-0" data-x="355" data-y="363" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="1200" data-end="4800" data-endspeed="300" data-easing="easeOutBack" data-endeasing="easeOutBack" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 2;"> SHOP NOW </div>
 											</li>
-											<li data-transition="boxslide" data-slotamount="7" data-masterspeed="500" data-saveperformance="on">
-												<!-- MAIN IMAGE --><img src="img/dummy.png" alt="slidebg1" data-lazyload="img/photos/Background/bg2.jpg" data-bgposition="left center" data-kenburns="off" data-duration="14000" data-ease="Linear.easeNone" data-bgpositionend="right center" />
-												<!-- LAYER NR. 1 -->
-												<div class="tp-caption large_white_text skewfromleftshort customout rs-parallaxlevel-0" data-x="355" data-y="363" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="1200" data-end="4800" data-endspeed="300" data-easing="easeOutBack" data-endeasing="easeOutBack" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 2;"> SHOP NOW </div>
-												<!-- LAYER NR. 2 -->
-												<div class="tp-caption very_large_white_text skewfromleftshort customout rs-parallaxlevel-0" data-x="270" data-y="250" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="800" data-end="4800" data-endspeed="300" data-easing="easeOutBack" data-endeasing="easeOutBack" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 2;"> selection </div>
-												<!-- LAYER NR. 3 -->
-												<div class="tp-caption very_big_white skewfromleftshort customout rs-parallaxlevel-0" data-x="270" data-y="140" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="300" data-start="500" data-end="4800" data-endspeed="300" data-easing="easeOutBack" data-endeasing="easeOutBack" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 2;"> Trendy </div>
-											</li>
+											
 										</ul>
 										<div class="slideshow_control"></div>
 									</div><!-- /.tp-banner -->
@@ -226,474 +238,577 @@
 		</div>
 	</section>
 	<!-- end new collection directory -->
+			</br>
+				<hr/>
+		</br>
+
+				<h1 id="Tees" style="color: #a39d94;">المحملات</h1>
+				<div id="shop-all" class="row">
+					<!-- Product Item #1 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img1.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Nike tee shirt.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Nike tee shirt.html">Nike T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه  4,500 </p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+
+					<!-- Product Item #2 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img2.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Dior tee shirt.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Dior tee shirt.html">Dior T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 6,300</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+
+					<!-- Product Item #3 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img4.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Nirvana tee shirt.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Nirvana tee shirt.html">Nirvana Casual T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 4,500</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+					<!-- Product Item #4 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img5.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="multicolor tee.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="multicolor tee.html">Multi-color Casual T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 5,400</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+
+					<!-- Product Item #4 -->
 
 
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img6.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Armani tee.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Armani tee.html">Emporio Armani T-shirt</a>
+							</h4>
+							<p class="product-price">جنيه 6,300</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img9a.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Black casual tee shirt.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Black casual tee shirt.html">Black Casual T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 4,500</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img10.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Red casual.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Red casual.html">Red Casual T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 4,500</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img11.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Tecno Droidpad.html">Multi-color Casual T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 5,400</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img19.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Tecno Droidpad.html">Red Lacoste T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 4,500</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img3.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Tecno Droidpad.html">Polo T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 6,300</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img20.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Tecno Droidpad.html">Orange Tommy Hilfigier T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 4,500</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img21.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Tecno Droidpad.html">Green Ralph Lauren Polo T-shirt</a>
+							</h4>
+							<p class="product-price">جنيه 6,300</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+						<!-- Product Item #4 -->
+						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+						<div class="product-img">
+							<img src="img/photos/Clothing/img16.png" alt="product">
+							<div class="product-hover">
+								<div class="product-cart">
+									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								</div>
+							</div>
+						</div>
+						<!-- .product-img end -->
+						<div class="product-bio">
+							<h4>
+								<a href="Tecno Droidpad.html">Off-white T-Shirt</a>
+							</h4>
+							<p class="product-price">جنيه 6,300</p>
+						</div>
+						<!-- .product-bio end -->
+				
+					</div>
+					<!-- .product-item end -->
+					
+				</div>
 
-<section id="popular-product" class="ecommerce">
-	<div class="container">
-		<!-- Shopping items content -->
-		<div class="shopping-content">
-		<script data-ad-client="ca-pub-1490630956216003" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Block heading two -->
-			<div class="block-heading-two">
-				<h3><span>العناصر الشعبية</span></h3>
-			</div>
+			</br>
+			<hr/>
+	</br>
 
-			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="iPhone 11 Pro.html"><img class="img-responsive" src="img/photos/Phones/Phone stores/NEW PHONES/ANKA PHONE STORE KADUNA/iPhone 11 Pro (2).jpg" alt="product" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="iPhone 11 Pro.html">iPhone 11 Pro</a><span class="color pull-right">&#8358;450,000</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="iPhone 11 Pro.html">Details</a>
+			<h1 id="Shirts" style="color: #a39d94;">قمصان</h1>
+			<div id="shop-all" class="row">
+				<!-- Product Item #1 -->
+							<!-- .product-item end -->
+
+				<!-- Product Item #3 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+					<div class="product-img">
+					<img src="img/photos/Clothing/img22.png" alt="product">
+						<div class="product-hover">
+							<div class="product-cart">
+								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+							</div>
 						</div>
-						<span class="hot-tag bg-red">HOT</span>
 					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="iPhone 11 Pro Max.html"><img class="img-responsive" src="img/photos/Phones/Phone stores/NEW PHONES/ANKA PHONE STORE KADUNA/iphone 11 Pro max.png" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="iPhone 11 Pro Max.html">iPhone 11 Pro Max</a><span class="color pull-right">&#8358;580,000</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="iPhone 11 Pro Max.html">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">HOT</span>
+					<!-- .product-img end -->
+					<div class="product-bio">
+						<h4>
+							<a href="Tecno Droidpad.html">Medium Long Sleeve Roberto Carally shirt</a>
+						</h4>
+						<p class="product-price">جنيه 5,400</p>
 					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="iPhone 11.html"><img class="img-responsive" src="img/photos/Phones/Phone stores/NEW PHONES/ANKA PHONE STORE KADUNA/iPhone 11.jpg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="iPhone 11.html">iPhone 11</a><span class="color pull-right">&#8358;380,000</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="iPhone 11.html">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">HOT</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Phones/iphone-11-pro.png" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">iPhone</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Accessories/Airpods.jpeg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">Airpods</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Accessories/Airpods.jpeg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">Airpods</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Accessories/Airpods.jpeg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">Airpods</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Accessories/Airpods.jpeg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">Airpods</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Electronics/cannon.jpg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">Canon</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Electronics/cannon.jpg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">Canon</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Electronics/cannon.jpg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">Canon</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<!-- Shopping items -->
-					<div class="shopping-item">
-						<!-- Image -->
-						<a href="single-product.html"><img class="img-responsive" src="img/photos/Electronics/cannon.jpg" alt="" /></a>
-						<!-- Shopping item name / Heading -->
-						<h4><a href="single-product.html">Canon</a><span class="color pull-right">&#8358;1000.00</span></h4>
-						<div class="clearfix"></div>
-						<!-- Shopping item hover block & link -->
-						<div class="item-hover bg-color hidden-xs">
-							<a href="#">Details</a>
-						</div>
-						
-						<!-- Hot tag -->
-						<span class="hot-tag bg-red">NEW</span>
-					</div>
-				</div>
-			</div>
+					<!-- .product-bio end -->
 			
+				</div>
+				<!-- .product-item end -->
+
+				<!-- Product Item #4 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+					<div class="product-img">
+					<img src="img/photos/Clothing/img23.png" alt="product">
+						<div class="product-hover">
+							<div class="product-cart">
+								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+							</div>
+						</div>
+					</div>
+					<!-- .product-img end -->
+					<div class="product-bio">
+						<h4>
+							<a href="Tecno Droidpad.html">Large Short Sleeve Roberto Carally Shirt</a>
+						</h4>
+						<p class="product-price">جنيه 5,400</p>
+					</div>
+					<!-- .product-bio end -->
+			
+				</div>
+				<!-- .product-item end -->
+
+				<!-- Product Item #5 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+					<div class="product-img">
+					<img src="img/photos/Clothing/img24.png" alt="product">
+						<div class="product-hover">
+							<div class="product-cart">
+								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+							</div>
+						</div>
+					</div>
+					<!-- .product-img end -->
+					<div class="product-bio">
+						<h4>
+							<a href="Tecno Droidpad.html">AVA Slim-fit Long Sleeve Shirt</a>
+						</h4>
+						<p class="product-price">جنيه 5,400</p>
+					</div>
+					<!-- .product-bio end -->
+			
+				</div>
+				<!-- .product-item end -->
+
+				<!-- Product Item #6 -->
+			
+			
+				<!-- .product-item end -->
+				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+					<div class="product-img">
+					<img src="img/photos/Clothing/Flower shirt.png" alt="product">
+						<div class="product-hover">
+							<div class="product-cart">
+								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+							</div>
+						</div>
+					</div>
+					<!-- .product-img end -->
+					<div class="product-bio">
+						<h4>
+							<a href="Tecno Droidpad.html">Flower Long Sleeve Shirt</a>
+						</h4>
+						<p class="product-price">جنيه 5,400</p>
+					</div>
+					<!-- .product-bio end -->
+			
+				</div>
+			</div>
+
+		</br>
+		<hr/>
+
+	</br>
+	
+</br>
+
+	<h1 id="Joggers" style="color: #a39d94;">بنطال رياضة</h1>
+	<div id="shop-all" class="row">
+		<!-- Product Item #1 -->
+		<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+			<div class="product-img">
+			<img src="img/photos/Clothing/img18.png" alt="product">
+				<div class="product-hover">
+					<div class="product-cart">
+						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+					</div>
+				</div>
+			</div>
+			<!-- .product-img end -->
+			<div class="product-bio">
+				<h4>
+					<a href="Tecno Droidpad.html">Black Nike Joggers</a>
+				</h4>
+				<p class="product-price">جنيه 8,100</p>
+			</div>
+			<!-- .product-bio end -->
+	
+		</div>
+		<!-- .product-item end -->
+
+		<!-- Product Item #2 -->
+		<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+			<div class="product-img">
+			<img src="img/photos/Clothing/img13.png" alt="product">
+				<div class="product-hover">
+					<div class="product-cart">
+						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+					</div>
+				</div>
+			</div>
+			<!-- .product-img end -->
+			<div class="product-bio">
+				<h4>
+					<a href="Tecno Droidpad.html">Casual Black Joggers</a>
+				</h4>
+				<p class="product-price">جنيه 8,100</p>
+			</div>
+			<!-- .product-bio end -->
+	
+		</div>
+		<!-- .product-item end -->
+
+		<!-- Product Item #3 -->
+		<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+			<div class="product-img">
+			<img src="img/photos/Clothing/img15.png" alt="product">
+				<div class="product-hover">
+					<div class="product-cart">
+						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+					</div>
+				</div>
+			</div>
+			<!-- .product-img end -->
+			<div class="product-bio">
+				<h4>
+					<a href="Tecno Droidpad.html">Vans Joggers</a>
+				</h4>
+				<p class="product-price">جنيه 8,100</p>
+			</div>
+			<!-- .product-bio end -->
+	
+		</div>
+		<!-- .product-item end -->
+
+		<!-- Product Item #4 -->
+		<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+			<div class="product-img">
+				<img src="img/photos/Clothing/img27.png" alt="product">
+				<div class="product-hover">
+					<div class="product-cart">
+						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+					</div>
+				</div>
+			</div>
+			<!-- .product-img end -->
+			<div class="product-bio">
+				<h4>
+					<a href="Tecno Droidpad.html">Tommy Hilfiger Joggers</a>
+				</h4>
+				<p class="product-price">جنيه 8,100</p>
+			</div>
+			<!-- .product-bio end -->
+	
+		</div>
+		<!-- .product-item end -->
+
+		<!-- Product Item #5 -->
+		<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
+			<div class="product-img">
+				<img src="img/photos/Clothing/img28.png" alt="product">
+				<div class="product-hover">
+					<div class="product-cart">
+						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+					</div>
+				</div>
+			</div>
+			<!-- .product-img end -->
+			<div class="product-bio">
+				<h4>
+					<a href="Tecno Droidpad.html">Casual Joggers</a>
+				</h4>
+				<p class="product-price">جنيه 8,100</p>
+			</div>
+			<!-- .product-bio end -->
+	
+		</div>
+		<!-- .product-item end -->
+
+		<!-- Product Item #6 -->
+		
+		<!-- .product-item end -->
+
+		<!-- Product Item #7 -->
+		
+		<!-- .product-item end -->
+
+		<!-- Product Item #8 -->
+		
+
+
+	
+
+		<!-- .product-item end -->
+	</div>
+
+</br>
+
+	
+</br>
+
+
+
+
+			</div>
+
+			<aside class="col-md-3 sidebar">
+
+				<div class="widget category-widget">
+
+					<h3>Categories</h3>
+
+					<ul id="category-widget">
+
+						<li class="open"><a href="#Tees">المحملات</a>
+						</li>
+
+						<li class="open"><a href="#Shirts">قمصان</a>
+						</li>
+
+						<li class="open"><a href="#Joggers">بنطال رياضة</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- /.category widget -->
+
+				<!-- /.widget -->
+
+			</aside>
+			<!-- /.col-md-3 -->
 		</div>
 	</div>
 </section>
 
-
-	<!-- Start Our Shop Items -->
-
-	<!-- Recent items Starts -->
-	<section id="recent-product">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<section class="related-products">
-
-
-
-						<!-- Block heading two -->
-						<div class="block-heading-two">
-							<h3><span>العناصر الموصى بها</span></h3>
-						</div>
-
-						<div class="related-products-wrapper">
-
-							<div class="related-products-carousel">
-
-								<div class="product-control-nav">
-									<a class="prev"><i class="fa fa-angle-left"></i></a>
-									<a class="next"><i class="fa fa-angle-right"></i></a>
-								</div>
-
-
-								<div class="row product-listing">
-									<div id="product-carousel" class="product-listing">
-
-										<div class="product  item first ">
-
-											<article>
-
-
-												<figure>
-													<a href="#">
-														<img src="img/photos/Accessories/Gimbal.jpg" class="img-responsive" alt="T_2_front">
-													</a>
-													<figcaption><span class="amount">&#8358;1000.00</span></figcaption>
-												</figure>
-
-												<h4 class="title"><a href="#">Gimbal</a></h4>
-
-
-												<a href="#" class="button-add-to-cart">Details</a>
-											</article>
-
-										</div>
-
-										<div class="product  item first ">
-
-											<article>
-
-
-												<figure>
-													<a href="#">
-														<img src="img/photos/Electronics/nikon.jpg" class="img-responsive " alt="T_5_front">
-													</a>
-													<figcaption><span class="amount">&#8358;1000.00</span></figcaption>
-												</figure>
-
-
-												<h4 class="title"><a href="#">Canon</a></h4>
-
-
-												<a href="#" class="button-add-to-cart">Details</a>
-											</article>
-
-										</div>
-
-										<div class="product  item first ">
-
-											<article>
-
-
-												<figure>
-													<a href="#">
-														<img src="img/photos/Electronics/xbox.png" class="img-responsive" alt="hoodie_2_front">
-													</a>
-													<figcaption><span class="amount">&#8358;1000.00</span></figcaption>
-												</figure>
-
-
-
-
-												<h4 class="title"><a href="#">Xbox 360</a></h4>
-
-
-												<a href="#" class="button-add-to-cart">Details</a>
-											</article>
-
-										</div>
-
-										<div class="product  item first ">
-
-											<article>
-
-
-												<figure>
-													<a href="#">
-														<img src="img/photos/Pc/acer.png" class="img-responsive" alt="T_4_front">
-													</a>
-													<figcaption>
-														<span class="amount">&#8358;1000.00</span></figcaption>
-												</figure>
-
-
-
-
-												<h4 class="title"><a href="#">Acer</a></h4>
-
-
-												<a href="#" class="button-add-to-cart">Details</a>
-											</article>
-
-										</div>
-
-										<div class="product  item first ">
-
-											<article>
-
-
-												<figure>
-													<a href="#">
-														<img src="img/photos/Phones/huaweix.jpg" class="img-responsive" alt="T_7_front">
-													</a>
-													<figcaption><span class="amount">&#8358;1000.00</span></figcaption>
-												</figure>
-
-
-
-
-												<h4 class="title"><a href="#">Huawei p30 pro</a></h4>
-
-
-												<a href="#" class="button-add-to-cart">Details</a>
-											</article>
-
-										</div>
-
-										<div class="product  item first ">
-
-											<article>
-
-
-												<figure>
-													<a href="#">
-														<img src="img/photos/Accessories/Mic.jpg" class="img-responsive" alt="T_6_front">
-													</a>
-													<figcaption><span class="amount">&#8358;1000.00</span></figcaption>
-												</figure>
-
-
-
-
-												<h4 class="title"><a href="#">Microphone</a></h4>
-
-
-												<a href="#" class="button-add-to-cart">Details</a>
-											</article>
-
-										</div>
-
-										<div class="product  item first ">
-
-											<article>
-
-
-												<figure>
-													<a href="#">
-														<img src="img/photos/Accessories/Bluetooth.jpg" class="img-responsive" alt="hoodie_4_front">
-													</a>
-													<figcaption><span class="amount">&#8358;1000.00</span></figcaption>
-												</figure>
-
-
-
-
-												<h4 class="title"><a href="#">Bluetooth</a></h4>
-
-
-												<a href="#" class="button-add-to-cart">Details</a>
-											</article>
-
-										</div>
-
-										<div class="product  item first ">
-
-											<article>
-
-
-												<figure>
-													<a href="#">
-														<img src="img/photos/Electronics/PS5.png" class="img-responsive" alt="hoodie_3_front">
-													</a>
-													<figcaption><span class="amount">&#8358;1000.00</span></figcaption>
-												</figure>
-
-
-
-
-												<h4 class="title"><a href="#">PS5</a></h4>
-
-
-												<a href="#" class="button-add-to-cart">Details</a>
-											</article>
-
-										</div>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-					</section>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Recent items Ends -->
-
-
-	<div class="bt-block-home-parallax" style="background-image: url(img/photos/Bgndar.png);">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="lookbook-product">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div><!-- /.bt-block-home-parallax -->
-
-	<!-- Start Our Clients -->
-
-	
-
-	<!-- End Our Clients  -->
-
+	<div class="clearfix"></div>
 </main>
 <!-- end main content -->
 
-
+</br>
+<hr/>
+</br>
 
 <!-- start footer area -->
 <footer class="footer-area-content">
@@ -704,10 +819,10 @@
 				<div class="footer-columns-entry">
 					<div class="row">
 						<div class="col-md-3">
-							<a href="index.php"> <h1><i class="fa fa-shopping-cart color"></i> Afrizon Mall</h1></a>
-							<div class="footer-description" style="font-style: italic;">...The Amazon Of Africa</div>
-							<div class="footer-address"><i class="fa fa-map-marker color"></i> Sudan<br> <i class="fa fa-phone color"></i> Phone: 012 154 0178<br> <i class="fa fa-envelope color"></i> Email: <a href="mailto:info@swiftmart.com.ng">info@swiftmart.com.ng</a><br>
-								<a target="_blank" href="https://www.swiftmart.com.ng/"><b>www.Afrizonmall.com</b></a>
+							<a href="index.php"><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"></a>
+							<div class="footer-description" style="font-style: italic;color:deepskyblue;">...The Amazon Of Africa</div>
+							<div class="footer-address"><i class="fa fa-map-marker color"></i> Sudan<br> <i class="fa fa-phone color"></i> Phone: 012 154 0178<br> <i class="fa fa-envelope color"></i> Email: <a href="mailto:info@afrizonmall.com">info@afrizonmall.com</a><br>
+								<a target="_blank" href="https://www.afrizonmall.com/"><b>www.afrizonmall.com</b></a>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -769,14 +884,14 @@
 								<a href="about.html">About Us</a>
 								<a href="contact.php">Contact Us</a>
 								<div class="tb-language dropdown pull-right">
-									<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> العربية <i class="fa fa-angle-down color"></i></a>
+									<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
 									<!-- Dropdown menu with languages -->
 									<ul class="dropdown-menu dropdown-mini" role="menu">
-										<li><a href="index.php"> English</a></li>
+										<li><a href="about arabic.html"> العربية</a></li>
 									</ul>
 								</div>
 							</div>
-							<div style="text-align: center;" class="copyright"><h5>&copy;Afrizon Group All rights reserved</h5> </div>
+							<div style="text-align: center;" class="copyright">Created by <h5>Wailcorp Dev. All right reserved</h5> </div>
 						</div>
 					</div>
 				</div>
@@ -791,10 +906,19 @@
 <!-- footer area end -->
 
 
+
+
+</main>
+<!-- end main content -->
+
+
+
+
+
 <!-- All script -->
 <script src="js/vendor/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
+
 <!-- Scroll up js
 ============================================ -->
 <script src="js/jquery.scrollUp.js"></script>

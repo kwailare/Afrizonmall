@@ -84,7 +84,7 @@
 			<div class="tb-social pull-right">
 				<div class="brand-bg text-right">
 					<!-- Brand Icons -->
-					<a href="https://www.facebook.com/Swiftmart-ng-111011497398438" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
+					<a href="https://www.facebook.com/Afrizon-Mall-103416948667465" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
 					<a href="#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
 					<a href="https://www.instagram.com/swift_mart_ng/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
 				</div>
@@ -259,7 +259,7 @@
 							<h4>
 								<a href="Nike tee shirt.html">Nike T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 3,600</p>
+							<p class="product-price">SDG 4,500</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -281,7 +281,7 @@
 							<h4>
 								<a href="Dior tee shirt.html">Dior T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 5,400</p>
+							<p class="product-price">SDG 6,300</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -413,7 +413,7 @@
 							<h4>
 								<a href="Tecno Droidpad.html">Multi-color Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 7,200</p>
+							<p class="product-price">SDG 5,400</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -434,7 +434,7 @@
 							<h4>
 								<a href="Tecno Droidpad.html">Red Lacoste T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 2,700</p>
+							<p class="product-price">SDG 4,500</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -455,7 +455,7 @@
 							<h4>
 								<a href="Tecno Droidpad.html">Polo T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 7,200</p>
+							<p class="product-price">SDG 6,300</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -476,7 +476,7 @@
 							<h4>
 								<a href="Tecno Droidpad.html">Orange Tommy Hilfigier T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 2,700</p>
+							<p class="product-price">SDG 4,500</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -518,7 +518,7 @@
 							<h4>
 								<a href="Tecno Droidpad.html">Off-white T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 8,100</p>
+							<p class="product-price">SDG 6,300</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -551,7 +551,7 @@
 						<h4>
 							<a href="Tecno Droidpad.html">Medium Long Sleeve Roberto Carally shirt</a>
 						</h4>
-						<p class="product-price">SDG 6,300</p>
+						<p class="product-price">SDG 5,400</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -571,9 +571,9 @@
 					<!-- .product-img end -->
 					<div class="product-bio">
 						<h4>
-							<a href="Tecno Droidpad.html">Large Long Sleeve Roberto Carally Shirt</a>
+							<a href="Tecno Droidpad.html">Large Short Sleeve Roberto Carally Shirt</a>
 						</h4>
-						<p class="product-price">SDG 6,300</p>
+						<p class="product-price">SDG 5,400</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -595,7 +595,7 @@
 						<h4>
 							<a href="Tecno Droidpad.html">AVA Slim-fit Long Sleeve Shirt</a>
 						</h4>
-						<p class="product-price">SDG 6,300</p>
+						<p class="product-price">SDG 5,400</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -620,7 +620,7 @@
 						<h4>
 							<a href="Tecno Droidpad.html">Flower Long Sleeve Shirt</a>
 						</h4>
-						<p class="product-price">SDG 6,300</p>
+						<p class="product-price">SDG 5,400</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -651,7 +651,7 @@
 				<h4>
 					<a href="Tecno Droidpad.html">Black Nike Joggers</a>
 				</h4>
-				<p class="product-price">SDG 10,800</p>
+				<p class="product-price">SDG 8,100</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -673,7 +673,7 @@
 				<h4>
 					<a href="Tecno Droidpad.html">Casual Black Joggers</a>
 				</h4>
-				<p class="product-price">SDG 10,800</p>
+				<p class="product-price">SDG 8,100</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -695,7 +695,7 @@
 				<h4>
 					<a href="Tecno Droidpad.html">Vans Joggers</a>
 				</h4>
-				<p class="product-price">SDG 10,800</p>
+				<p class="product-price">SDG 8,100</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -717,7 +717,7 @@
 				<h4>
 					<a href="Tecno Droidpad.html">Tommy Hilfiger Joggers</a>
 				</h4>
-				<p class="product-price">SDG 9,900</p>
+				<p class="product-price">SDG 8,100</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -739,7 +739,7 @@
 				<h4>
 					<a href="Tecno Droidpad.html">Casual Joggers</a>
 				</h4>
-				<p class="product-price">SDG 9,900</p>
+				<p class="product-price">SDG 8,100</p>
 			</div>
 			<!-- .product-bio end -->
 	
