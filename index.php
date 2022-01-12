@@ -404,14 +404,14 @@
 							<img src="img/photos/Clothing/img11.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+									<a class="btn btn-secondary btn-block" href="multicolor tee1.html">Details</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Multi-color Casual T-Shirt</a>
+								<a href="multicolor tee1.html">Multi-color Casual T-Shirt</a>
 							</h4>
 							<p class="product-price">SDG 5,400</p>
 						</div>
@@ -425,7 +425,7 @@
 							<img src="img/photos/Clothing/img19.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+									<a class="btn btn-secondary btn-block" href="multicolor tee1.html">Details</a>
 								</div>
 							</div>
 						</div>
