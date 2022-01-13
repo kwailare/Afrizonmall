@@ -71,7 +71,7 @@
 			<!-- Contact starts -->
 			<div class="tb-contact pull-left">
 				<!-- Email -->
-				<i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:info@swiftmart.com.ng">info@swiftmart.com.ng</a>
+				<i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:afrizonmallsd@gmail.com">afrizonmallsd@gmail.com</a>
 				&nbsp;&nbsp;
 				<!-- Phone -->
 				<i class="fa fa-phone color"></i> &nbsp; 012 154 0178
@@ -85,14 +85,14 @@
 				<div class="brand-bg text-right">
 					<!-- Brand Icons -->
 					<a href="https://www.facebook.com/Afrizon-Mall-103416948667465" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
-					<a href="#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
-					<a href="https://www.instagram.com/swift_mart_ng/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
+					<a href="https://twitter.com/afrizon_mall" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
+					<a href="https://www.instagram.com/afrizonmall/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
 				</div>
 				<!-- Social media ends -->
 			</div>
 			<!-- Langauge starts -->
 			<div class="tb-language dropdown pull-right">
-				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> العربية <i class="fa fa-angle-down color"></i></a>
+				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> Arabic <i class="fa fa-angle-down color"></i></a>
 				<!-- Dropdown menu with languages -->
 				<ul class="dropdown-menu dropdown-mini" role="menu">
 					<li><a href="index.php">English</a></li>
@@ -116,7 +116,7 @@
 				<div class="col-md-4 col-sm-4">
 					<!-- Logo section -->
 					<div class="logo">
-						<h1><a href="index.php"><marquee><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"><span style="font-size: big; font-style: italic; margin-left: 40px; color:deepskyblue;">The African Amazon</span></marquee></a></h1>
+						<h1><a href="indexarabic.php"><marquee><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"><span style="font-size: big; font-style: italic; margin-left: 40px; color:deepskyblue;">The African Amazon</span></marquee></a></h1>
 					</div>
 				</div>
 				<div class="col-md-6 col-md-offset-2 col-sm-5 col-sm-offset-3 hidden-xs">
@@ -150,12 +150,12 @@
 				<div class="navy">
 					<ul>
 						<!-- Main menu -->
-						<li><a href="index.php">الصفحة الرئيسية </a></li>
+						<li><a href="indexarabic.php">Home</a></li>
 						<!-- <li><a href="laptops.html">Laptops</a></li> -->
 						<!-- <li><a href="Clothing.html">Clothing</a></li> -->
 						<!-- <li><a href="electronics.html">Electronics</a></li> -->
-						<li><a href="about arabic.html">معلومات عنا</a></li>
-						<li><a href="contact  arabic.php">اتصل بنا</a></li>
+						<li><a href="about arabic.html">About Us</a></li>
+						<li><a href="contact arabic.html">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>

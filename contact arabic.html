@@ -50,7 +50,7 @@
 			<!-- Contact starts -->
 			<div class="tb-contact pull-left">
 				<!-- Email -->
-				<i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:info@swiftmart.com.ng">info@swiftmart.com.ng</a>
+				<i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:afrizonmallsd@gmail.com">afrizonmallsd@gmail.com</a>
 				&nbsp;&nbsp;
 				<!-- Phone -->
 				<i class="fa fa-phone color"></i> &nbsp; 012 154 0178
@@ -64,17 +64,17 @@
 				<div class="brand-bg text-right">
 					<!-- Brand Icons -->
 					<a href="https://www.facebook.com/Afrizon-Mall-103416948667465" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
-					<a href="#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
-					<a href="https://www.instagram.com/swift_mart_ng/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
+					<a href="https://twitter.com/afrizon_mall" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
+					<a href="https://www.instagram.com/afrizonmall/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
 				</div>
 				<!-- Social media ends -->
 			</div>
 			<!-- Langauge starts -->
 			<div class="tb-language dropdown pull-right">
-				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
+				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> العربية <i class="fa fa-angle-down color"></i></a>
 				<!-- Dropdown menu with languages -->
 				<ul class="dropdown-menu dropdown-mini" role="menu">
-					<li><a href="indexarabic.php">Arabic</a></li>
+					<li><a href="contact.html">English</a></li>
 				</ul>
 			</div>
 			<!-- Language ends -->
@@ -95,7 +95,7 @@
 				<div class="col-md-4 col-sm-4">
 					<!-- Logo section -->
 					<div class="logo">
-						<h1><a href="index.php"><marquee><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"><span style="font-size: big; font-style: italic; margin-left: 40px; color:deepskyblue;">The African Amazon</span></marquee></a></h1>
+						<h1><a href="indexarabic.php"><marquee><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"><span style="font-size: big; font-style: italic; margin-left: 40px; color:deepskyblue;">The African Amazon</span></marquee></a></h1>
 					</div>
 				</div>
 				<div class="col-md-6 col-md-offset-2 col-sm-5 col-sm-offset-3 hidden-xs">
@@ -129,12 +129,12 @@
 				<div class="navy">
 					<ul>
 						<!-- Main menu -->
-						<li><a href="index.php">Home</a></li>
+						<li><a href="indexarabic.php">الصفحة الرئيسية</a></li>
 						<!-- <li><a href="laptops.html">Laptops</a></li> -->
 						<!-- <li><a href="Clothing.html">Clothing</a></li> -->
 						<!-- <li><a href="electronics.html">Electronics</a></li> -->
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="contact.php">Contact Us</a></li>
+						<li><a href="about arabic.html">معلومات عنا</a></li>
+						<li><a href="contact arabic.html">اتصل بنا</a></li>
 					</ul>
 				</div>
 			</div>
@@ -162,45 +162,151 @@
 			<div class="row">
 				<div class="col-md-8">
 					<hr>
-				<?php 
-                            $Msg = "";
-                            if(isset($_GET['error']))
-                            {
-                                $Msg = " Please Fill in the Blanks ";
-                                echo '<div class="alert alert-danger">'.$Msg.'</div>';
-                            }
-
-                            if(isset($_GET['success']))
-                            {
-                                $Msg = " Your Message Has Been Sent ";
-                                echo '<div class="alert alert-success">'.$Msg.'</div>';
-                            }
-                        
-				?>
-						
 					<div class="row">
 						
 						<div class="Contact-Form">
-							<form class="leave-comment contact-form" method="post" action="process.php" id="cform" autocomplete="on">
-								<div class="Contact-us">
-									<div class="form-input col-md-4">
-										<input type="text" name="Uname" placeholder="Your Name" required>
+							<center>
+								<form class="gform pure-form pure-form-stacked" method="POST" data-email="kwailare@gmail.com"
+								action="https://script.google.com/macros/s/AKfycbzy63mCm2h3W5Oi_liQs-9veswxqUXShXaEhz6LGqbNagIkNwEXw-yIhnTsGti8UmCVcg/exec">
+								  <div class="form-elements"><br>
+									<div style="background:none;border:8px solid gray;border-radius: 30px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br>
+									  <b class="content-head" style="font-size: 2.3em;">اتصل بنا</b>
+									  <br><br>
+									   <b style="margin-left: -255px;font-size: 1.3em;">اسم</b><br>
+									  <input type="text" name="Uname" required="" style="font-size: 1em;width: 300px;"/><br><br>
+							  
+									  <b style="margin-left: -255px;font-size: 1.3em;">بريد الالكتروني</b><br>
+									  <input type="email" name="E_mail" required="" style="font-size: 1em;width: 300px;"/><br><br>
+							  
+									   <b style="margin-left: -255px;font-size: 1.3em;">هاتف</b><br>
+									   <input type="number"  name="Phone" required="" style="font-size: 1em;width: 300px;"/><br><br>
+									
+									  <b style="margin-left: -110px;font-size: 1.3em;">كيف يمكننا مساعدتك؟</b><br>
+									  <textarea  name="Message" rows="5" cols="22" required="" style="font-size: 1.3em;width: 300px;"></textarea><br><br>
+								  
+									  <button style="float: right;width: 100px;height: 27px;font-size: 1.1em;margin-right: 48px;">
+									  send</button><br>
 									</div>
-									<div class="form-input col-md-4">
-										<input type="email" name="E_mail" placeholder="Email" required>
-									</div>
-									<div class="form-input col-md-4">
-										<input type="text" name="Phone" placeholder="Phone">
-									</div>
-									<div class="form-input col-md-12">
-										<textarea class="txt-box textArea" name="Mssg" cols="40" rows="7" id="messageTxt" placeholder="Message" spellcheck="true" required></textarea>
-									</div>
-									<div class="form-submit col-md-12">
-									<button class="btn btn-info" name="btn-send"> Send Message</button>
-										<!-- <input type="submit" name="btn_send" class="btn btn-custom-6" value="Send Message"> -->
-									</div>
-								</div>
-							</form>
+								  </div>
+							  
+								  <!-- Thankyou_message --><br>
+								  <div class="thankyou_message" style="display:none;background:none;border:8px solid gray;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br><br>
+									<h1>شكرا لإتصالك بنا!</h1>
+									<h1>*******</h1>
+								  </div>
+								</form>
+								<script data-cfasync="false" type="text/javascript">
+								  
+								 (function() {
+								function validEmail(email) {
+								  var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+								  return re.test(email);
+								}
+							  
+								function validateHuman(honeypot) {
+								  if (honeypot) {
+									console.log("Robot Detected!");
+									return true;
+								  } else {
+									console.log("Welcome Human!");
+								  }
+								}
+								function getFormData(form) {
+								  var elements = form.elements;
+							  
+								  var fields = Object.keys(elements).filter(function(k) {
+										return (elements[k].name !== "honeypot");
+								  }).map(function(k) {
+									if(elements[k].name !== undefined) {
+									  return elements[k].name;
+									}else if(elements[k].length > 0){
+									  return elements[k].item(0).name;
+									}
+								  }).filter(function(item, pos, self) {
+									return self.indexOf(item) == pos && item;
+								  });
+							  
+								  var formData = {};
+								  fields.forEach(function(name){
+									var element = elements[name];
+									formData[name] = element.value;
+									if (element.length) {
+									  var data = [];
+									  for (var i = 0; i < element.length; i++) {
+										var item = element.item(i);
+										if (item.checked || item.selected) {
+										  data.push(item.value);
+										}
+									  }
+									  formData[name] = data.join(', ');
+									}
+								  });
+							  
+								  // add form-specific values into the data
+								  formData.formDataNameOrder = JSON.stringify(fields);
+								  formData.formGoogleSheetName = form.dataset.sheet || "Sheet1"; // default sheet name
+								  formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+							  
+								  console.log(formData);
+								  return formData;
+								}
+							  
+								function handleFormSubmit(event) {  
+								  event.preventDefault();           
+								  var form = event.target;
+								  var data = getFormData(form);         
+								  if( data.email && !validEmail(data.email) ) {   
+									var invalidEmail = form.querySelector(".email-invalid");
+									if (invalidEmail) {
+									  invalidEmail.style.display = "block";
+									  return false;
+									}
+								  } else {
+									disableAllButtons(form);
+									var url = form.action;
+									var xhr = new XMLHttpRequest();
+									xhr.open('POST', url);
+									xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+									xhr.onreadystatechange = function() {
+										console.log(xhr.status, xhr.statusText);
+										console.log(xhr.responseText);
+										var formElements = form.querySelector(".form-elements")
+										if (formElements) {
+										  formElements.style.display = "none"; // hide form
+										}
+										var thankYouMessage = form.querySelector(".thankyou_message");
+										if (thankYouMessage) {
+										  thankYouMessage.style.display = "block";
+										}
+										return;
+									};
+									var encoded = Object.keys(data).map(function(k) {
+										return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+									}).join('&');
+									xhr.send(encoded);
+								  }
+								}
+								
+								function loaded() {
+								  console.log("Contact form submission handler loaded successfully.");
+								  var forms = document.querySelectorAll("form.gform");
+								  for (var i = 0; i < forms.length; i++) {
+									forms[i].addEventListener("submit", handleFormSubmit, false);
+								  }
+								};
+								document.addEventListener("DOMContentLoaded", loaded, false);
+							  
+								function disableAllButtons(form) {
+								  var buttons = form.querySelectorAll("button");
+								  for (var i = 0; i < buttons.length; i++) {
+									buttons[i].disabled = true;
+								  }
+								}
+							  })();
+							  
+							  
+								</script>
+							  </center>
 						</div>
 					</div>
 				</div>
@@ -212,7 +318,7 @@
 							<p>لا تتردد في الاتصال بنا للحصول على الدعم!</p>
 						</div>
 						<div class="Block-Contact col-md-6">
-							<p>Phone :</p>
+							<p>هاتف :</p>
 							<ul>
 								<li>
 									<i class="fa fa-phone"></i>
@@ -226,12 +332,12 @@
 							<ul>
 								<li>
 									<i class="fa fa-envelope"></i>
-									<span>info@swiftmart.com</span>
+									<span>afrizonmallsd@gmail.com</span>
 								</li>
 							</ul>
 						</div>
 						<div class="Block-Contact col-md-12">
-							<p>عنوان :</p>
+							<p>تبوك :</p>
 							<ul>
 								<li>
 									<i class="fa fa-map-marker"></i>
@@ -328,10 +434,10 @@
 								<a href="about.html">About Us</a>
 								<a href="contact.php">Contact Us</a>
 								<div class="tb-language dropdown pull-right">
-									<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
+									<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> العربية <i class="fa fa-angle-down color"></i></a>
 									<!-- Dropdown menu with languages -->
 									<ul class="dropdown-menu dropdown-mini" role="menu">
-										<li><a href="about arabic.html"> العربية</a></li>
+										<li><a href="contact.html"> English</a></li>
 									</ul>
 								</div>
 							</div>

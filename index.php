@@ -71,7 +71,7 @@
 			<!-- Contact starts -->
 			<div class="tb-contact pull-left">
 				<!-- Email -->
-				<i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:info@swiftmart.com.ng">info@swiftmart.com.ng</a>
+				<i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:afrizonmallsd@gmail.com">afrizonmallsd@gmail.com</a>
 				&nbsp;&nbsp;
 				<!-- Phone -->
 				<i class="fa fa-phone color"></i> &nbsp; 012 154 0178
@@ -85,8 +85,8 @@
 				<div class="brand-bg text-right">
 					<!-- Brand Icons -->
 					<a href="https://www.facebook.com/Afrizon-Mall-103416948667465" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
-					<a href="#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
-					<a href="https://www.instagram.com/swift_mart_ng/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
+					<a href="https://twitter.com/afrizon_mall" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
+					<a href="https://www.instagram.com/afrizonmall/" class="instagram"><i class="fa fa-instagram square-2 rounded-1"></i></a>
 				</div>
 				<!-- Social media ends -->
 			</div>
@@ -155,7 +155,7 @@
 						<!-- <li><a href="Clothing.html">Clothing</a></li> -->
 						<!-- <li><a href="electronics.html">Electronics</a></li> -->
 						<li><a href="about.html">About Us</a></li>
-						<li><a href="contact.php">Contact Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
@@ -821,7 +821,7 @@
 						<div class="col-md-3">
 							<a href="index.php"><img src="img/photos/Logo.png" height="100rem" width="150rem" alt="Logo"></a>
 							<div class="footer-description" style="font-style: italic;color:deepskyblue;">...The Amazon Of Africa</div>
-							<div class="footer-address"><i class="fa fa-map-marker color"></i> Sudan<br> <i class="fa fa-phone color"></i> Phone: 012 154 0178<br> <i class="fa fa-envelope color"></i> Email: <a href="mailto:info@afrizonmall.com">info@afrizonmall.com</a><br>
+							<div class="footer-address"><i class="fa fa-map-marker color"></i> Sudan<br> <i class="fa fa-phone color"></i> Phone: 012 154 0178<br> <i class="fa fa-envelope color"></i> Email: <a href="mailto:afrizonmallsd@gmail.com">afrizonmallsd@gmail.com</a><br>
 								<a target="_blank" href="https://www.afrizonmall.com/"><b>www.afrizonmall.com</b></a>
 							</div>
 							<div class="clear"></div>
