@@ -213,12 +213,9 @@ const instagramBtn = document.querySelector(".instagram-btn");
 
 
 function init() {
-  const instagramImg = document.querySelector(".attachment-shop_single");
 
   let postUrl = encodeURI(document.location.href);
   let postTitle = encodeURI("Hi everyone, Please check this out: ");
-  let postImg = encodeURI(instagramImg.src);
-
   facebookBtn.setAttribute(
     "href",
     `https://www.facebook.com/sharer.php?u=${postUrl}`
