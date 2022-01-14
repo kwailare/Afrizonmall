@@ -7,6 +7,7 @@
 <!--<![endif]-->
 
 <head>
+	<script src="https://kit.fontawesome.com/af8fa69d06.js" crossorigin="anonymous"></script>
 	<title>Checkout | Black Casual T-shirt</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -202,35 +203,36 @@
 							
 
 							<div class="accordion-group panel">
-
-								<div class="container">
-									<h2 class="accordion-title">
-
+<br>
+		<div class="container">
+			<h2 class="accordion-title">
+				<form class="gform pure-form pure-form-stacked" method="POST" data-email="afrizonmallsd@gmail.com"
+								action="https://script.google.com/macros/s/AKfycbxQ0E23rghaHUnsGrzuYTGbqBKmWTlqffls4pT2GrDWcj2zW9-ccNpC5c_UZ_8nmcq4/exec">
                 <span>Delivery Details
-                </span> <a class="accordion-btn" data-toggle="collapse" href="#collapse-three"></a></h2>
+                </span> <a class="accordion-btn open" data-toggle="collapse" href="#collapse-one"></a></h2>
 
-									<div class="accordion-body collapse" id="collapse-three">
+									<div class="accordion-body collapse in" id="collapse-one">
 
 										<div class="row accordion-body-wrapper">
 
-											<div class="col-md-12">
+											
 												<div class="form-group">
 													<label for="fullname" class="form-label">Enter your Full Name
 
 															<span class="required">*
 			</span>
 													</label>
-													<input type="text" name="firstname" id="firstname" class="form-control input-lg" required>
+													<input type="text" name="name" id="firstname" class="form-control input-lg" required>
 												</div>
 												
-											</div>
+											
 											<div class="form-group">
 												<label for="email2" class="form-label">Enter your e-mail
 
 														<span class="required">*
 		</span>
 												</label>
-												<input type="email" name="email2" id="email2" class="form-control input-lg" required>
+												<input type="email" name="email" id="email2" class="form-control input-lg" required>
 											</div>
 
 											<div class="form-group">
@@ -239,17 +241,8 @@
 														<span class="required">*
 		</span>
 												</label>
-												<input type="text" name="telephone" id="telephone" class="form-control input-lg" required>
+												<input type="text" name="phone" id="telephone" class="form-control input-lg" required>
 											</div>
-											<div class="form-group">
-												<label for="telephone" class="form-label">Enter your Telephone
-
-														<span class="required">*
-		</span>
-												</label>
-												<input type="text" name="telephone" id="telephone" class="form-control input-lg" required>
-											</div>
-										</div>
 
 										<div class="lg-margin2x">
 											<div class="form-group">
@@ -257,7 +250,7 @@
 													<span class="required">*
 													</span>
 												</label>
-												<input type="text" name="address1" id="address1" class="form-control input-lg">
+												<input type="text" name="address" id="address1" class="form-control input-lg">
 											</div>
 										</div>
 										<div class="form-group">
@@ -266,8 +259,171 @@
 													<span class="required">*
 	</span>
 											</label>
-											<input type="text" name="productcode" id="productcode" class="form-control input-lg" required>
+											<input type="text" name="product_code" id="productcode" class="form-control input-lg" placeholder="Copy from confirm Order Below..." required>
+										
+										
+											<button style="float: right;width: 30%;height: 70px;font-size: 2.1em; color: white; margin-right: 48px;border-radius: 30%; background-color: deepskyblue; border:none;">CONFIRM ORDER</button><br></a>
+											<!-- Thankyou_message --><br>
+							<div class="thankyou_message" style="display:none;background:none;border:8px solid gray;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br><br>
+								<h1>Thanks for contacting us!</h1>
+								<h1>*******</h1>
+							  </div>
 										</div>
+									</div>
+								</div>
+								
+								</form>
+
+							</div>
+							<script data-cfasync="false" type="text/javascript">
+								  
+								(function() {
+							   function validEmail(email) {
+								 var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+								 return re.test(email);
+							   }
+							 
+							   function validateHuman(honeypot) {
+								 if (honeypot) {
+								   console.log("Robot Detected!");
+								   return true;
+								 } else {
+								   console.log("Welcome Human!");
+								 }
+							   }
+							   function getFormData(form) {
+								 var elements = form.elements;
+							 
+								 var fields = Object.keys(elements).filter(function(k) {
+									   return (elements[k].name !== "honeypot");
+								 }).map(function(k) {
+								   if(elements[k].name !== undefined) {
+									 return elements[k].name;
+								   }else if(elements[k].length > 0){
+									 return elements[k].item(0).name;
+								   }
+								 }).filter(function(item, pos, self) {
+								   return self.indexOf(item) == pos && item;
+								 });
+							 
+								 var formData = {};
+								 fields.forEach(function(name){
+								   var element = elements[name];
+								   formData[name] = element.value;
+								   if (element.length) {
+									 var data = [];
+									 for (var i = 0; i < element.length; i++) {
+									   var item = element.item(i);
+									   if (item.checked || item.selected) {
+										 data.push(item.value);
+									   }
+									 }
+									 formData[name] = data.join(', ');
+								   }
+								 });
+							 
+								 // add form-specific values into the data
+								 formData.formDataNameOrder = JSON.stringify(fields);
+								 formData.formGoogleSheetName = form.dataset.sheet || "Sheet1"; // default sheet name
+								 formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+							 
+								 console.log(formData);
+								 return formData;
+							   }
+							 
+							   function handleFormSubmit(event) {  
+								 event.preventDefault();           
+								 var form = event.target;
+								 var data = getFormData(form);         
+								 if( data.email && !validEmail(data.email) ) {   
+								   var invalidEmail = form.querySelector(".email-invalid");
+								   if (invalidEmail) {
+									 invalidEmail.style.display = "block";
+									 return false;
+								   }
+								 } else {
+								   disableAllButtons(form);
+								   var url = form.action;
+								   var xhr = new XMLHttpRequest();
+								   xhr.open('POST', url);
+								   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+								   xhr.onreadystatechange = function() {
+									   console.log(xhr.status, xhr.statusText);
+									   console.log(xhr.responseText);
+									   var formElements = form.querySelector(".form-elements")
+									   if (formElements) {
+										 formElements.style.display = "none"; // hide form
+									   }
+									   var thankYouMessage = form.querySelector(".thankyou_message");
+									   if (thankYouMessage) {
+										 thankYouMessage.style.display = "block";
+									   }
+									   return;
+								   };
+								   var encoded = Object.keys(data).map(function(k) {
+									   return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+								   }).join('&');
+								   xhr.send(encoded);
+								 }
+							   }
+							   
+							   function loaded() {
+								 console.log("Contact form submission handler loaded successfully.");
+								 var forms = document.querySelectorAll("form.gform");
+								 for (var i = 0; i < forms.length; i++) {
+								   forms[i].addEventListener("submit", handleFormSubmit, false);
+								 }
+							   };
+							   document.addEventListener("DOMContentLoaded", loaded, false);
+							 
+							   function disableAllButtons(form) {
+								 var buttons = form.querySelectorAll("button");
+								 for (var i = 0; i < buttons.length; i++) {
+								   buttons[i].disabled = true;
+								 }
+							   }
+							 })();
+							 
+							 
+							   </script>
+
+
+				<div class="container">
+					<h2 class="accordion-title">
+
+                <span>Payment
+                </span> <a class="accordion-btn open" data-toggle="collapse" href="#collapse-two"></a></h2>
+
+									<div class="accordion-body collapse" id="collapse-two">
+
+										<div class="row accordion-body-wrapper">
+
+											<center><div class="col-md-12">
+												<img src="/img/bankak.png" width="220px" height="200px" alt="Bank Logo">
+												<h1>Pay Using Bankak App Transfer</h1>
+											</div>
+											<div class="col-md-12">
+												<h2>Account Number: </h2><span style="margin:5px;font-family: Roboto;font-weight: bold;font-size: 70px;">02639590</span>
+											</div>
+											
+											<div class="col-md-12">
+												<h3>Click the button below <span style="text-transform: uppercase; background-color: Black;padding: 2px; border-radius: 10%; color: white;">After</span> you made the Transfer</h1>
+											</div>
+											<button class="bank-btn1">i paid</button>
+										</center>
+										<br>
+										<hr>
+										<br>
+											<center><div class="col-md-12">
+												<img src="/img/payondelivery.png" width="220px" height="200px" alt="Bank Logo">
+												<br>
+												<br>
+												<brr>
+											</div>
+											<button class="bank-btn2">Pay On Delivery</button>
+										</center>
+										<br>
+										<br>
 									</div>
 								</div>
 							</div>
@@ -280,9 +436,9 @@
 									<h2 class="accordion-title mb-0">
 
                 <span>Confirm Order
-                </span> <a class="accordion-btn open" data-toggle="collapse" href="#collapse-five"></a></h2>
+                </span> <a class="accordion-btn open" data-toggle="collapse" href="#collapse-three"></a></h2>
 
-									<div class="accordion-body collapse in" id="collapse-five">
+									<div class="accordion-body collapse" id="collapse-three">
 
 										<div class="row accordion-body-wrapper">
 
@@ -370,8 +526,8 @@
 												<div class="md-margin half">
 												</div>
 
-												<div class="text-right"><a href="Payment.html" class="btn btn-custom-6 btn-lger min-width-slg">CONFIRM ORDER</a>
-												</div>
+												
+											</div>
 											</div>
 										</div>
 									</div>
@@ -383,7 +539,7 @@
 						</div>
 
 					</div>
-
+					
 				</section>
 
 
