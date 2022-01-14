@@ -23,6 +23,78 @@ html {
     line-height: 1.4;
 }
 
+.bank-btn1 {
+    display: inline-block;
+    width: 220px;
+    height: 60px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 56px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: tomato;
+    outline: none;
+    transition: all ease 0.5s;
+}
+.bank-btn2 {
+    display: inline-block;
+    width: 220px;
+    height: 60px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 56px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: tomato;
+    outline: none;
+    transition: all ease 0.5s;
+}
+.active {
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-left-color: red;
+    animation: rotate 1.4s ease 0.5s infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.success{
+    position: relative;
+    background-color: rgb(2, 207, 53);
+    animation: bounce .3s ease-in;
+}
+@keyframes bounce{
+    0%{
+        transform: scale(2);
+    }
+}
+.success:before{
+    content: '';
+    position: absolute;
+    background: url(/img/check-circle-regular.svg) no-repeat;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 31px;
+    height: 31px;
+    line-height: 31px;
+    top: 8px;
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.

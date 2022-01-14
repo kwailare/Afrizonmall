@@ -175,3 +175,32 @@ $(document).ready(function() {
 
 
 });
+
+$(document).ready(function(){
+	$(".bank-btn1").click(function(){
+		$(this).addClass("active");
+
+		setTimeout(function(){
+			$(".bank-btn1").addClass("success");
+
+		}, 3700);
+		setTimeout(function(){
+			$("bank-btn1").removeClass("active");
+			$("bank-btn1").removeClass("success");
+		}, 5000);
+	});
+});
+$(document).ready(function(){
+	$(".bank-btn2").click(function(){
+		$(this).addClass("active");
+
+		setTimeout(function(){
+			$(".bank-btn2").addClass("success");
+
+		}, 3700);
+		setTimeout(function(){
+			$("bank-btn2").removeClass("active");
+			$("bank-btn2").removeClass("success");
+		}, 5000);
+	});
+});
