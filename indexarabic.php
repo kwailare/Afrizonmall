@@ -92,7 +92,7 @@
 			</div>
 			<!-- Langauge starts -->
 			<div class="tb-language dropdown pull-right">
-				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> Arabic <i class="fa fa-angle-down color"></i></a>
+				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> العربية <i class="fa fa-angle-down color"></i></a>
 				<!-- Dropdown menu with languages -->
 				<ul class="dropdown-menu dropdown-mini" role="menu">
 					<li><a href="index.php">English</a></li>
@@ -150,17 +150,16 @@
 				<div class="navy">
 					<ul>
 						<!-- Main menu -->
-						<li><a href="indexarabic.php">Home</a></li>
+						<li><a href="indexarabic.php">الصفحة الرئيسية</a></li>
 						<!-- <li><a href="laptops.html">Laptops</a></li> -->
 						<!-- <li><a href="Clothing.html">Clothing</a></li> -->
 						<!-- <li><a href="electronics.html">Electronics</a></li> -->
-						<li><a href="about arabic.html">About Us</a></li>
-						<li><a href="contact arabic.html">Contact Us</a></li>
+						<li><a href="about arabic.html">معلومات عنا</a></li>
+						<li><a href="contact arabic.html">اتصل بنا</a></li>
 					</ul>
 				</div>
 			</div>
-		</div>
-					
+		</div>	
 
 		<!-- Navigation ends -->
 
