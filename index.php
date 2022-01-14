@@ -95,7 +95,7 @@
 				<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
 				<!-- Dropdown menu with languages -->
 				<ul class="dropdown-menu dropdown-mini" role="menu">
-					<li><a href="indexarabic.php">Arabic</a></li>
+					<li><a href="indexarabic.php">العربية</a></li>
 				</ul>
 			</div>
 			<!-- Language ends -->
@@ -495,7 +495,7 @@
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Green Ralph Lauren Polo T-shirt</a>
+								<a href="Tecno Droidpad.html">Ralph Lauren Polo T-shirt</a>
 							</h4>
 							<p class="product-price">SDG 6,300</p>
 						</div>
