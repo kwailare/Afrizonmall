@@ -563,14 +563,14 @@
 					<img src="img/photos/Clothing/img24.png" alt="product">
 						<div class="product-hover">
 							<div class="product-cart">
-								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+								<a class="btn btn-secondary btn-block" href="slimfit shirt.html">Details</a>
 							</div>
 						</div>
 					</div>
 					<!-- .product-img end -->
 					<div class="product-bio">
 						<h4>
-							<a href="Tecno Droidpad.html">AVA Slim-fit Long Sleeve Shirt</a>
+							<a href="slimfit shirt.html">AVA Slim-fit Long Sleeve Shirt</a>
 						</h4>
 						<p class="product-price">SDG 5,400</p>
 					</div>
