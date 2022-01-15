@@ -404,14 +404,14 @@
 							<img src="img/photos/Clothing/img11.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="multicolor tee1.html">Details</a>
+									<a class="btn btn-secondary btn-block" href="multicolor gr.html">Details</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="multicolor tee1.html">Multi-color Casual T-Shirt</a>
+								<a href="multicolor gr.html">Multi-color Casual T-Shirt</a>
 							</h4>
 							<p class="product-price">SDG 5,400</p>
 						</div>
@@ -425,14 +425,14 @@
 							<img src="img/photos/Clothing/img19.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="multicolor tee1.html">Details</a>
+									<a class="btn btn-secondary btn-block" href="lacoste.html">Details</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Red Lacoste T-Shirt</a>
+								<a href="lacoste.html">Red Lacoste T-Shirt</a>
 							</h4>
 							<p class="product-price">SDG 4,500</p>
 						</div>
@@ -446,14 +446,14 @@
 							<img src="img/photos/Clothing/img3.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+									<a class="btn btn-secondary btn-block" href="polo tee.html">Details</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Polo T-Shirt</a>
+								<a href="polo tee.html">Polo T-Shirt</a>
 							</h4>
 							<p class="product-price">SDG 6,300</p>
 						</div>
