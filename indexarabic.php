@@ -293,14 +293,14 @@
 							<img src="img/photos/Clothing/img4.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Nirvana tee shirt.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="Nirvana tee ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Nirvana tee shirt.html">Nirvana Casual T-Shirt</a>
+								<a href="Nirvana tee ar.html">Nirvana Casual T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 4,500</p>
 						</div>
@@ -314,14 +314,14 @@
 							<img src="img/photos/Clothing/img5.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="multicolor tee.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="multicolor tee ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="multicolor tee.html">Multi-color Casual T-Shirt</a>
+								<a href="multicolor tee ar.html">Multi-color Casual T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 5,400</p>
 						</div>
@@ -340,14 +340,14 @@
 							<img src="img/photos/Clothing/img6.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Armani tee.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="Armani ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Armani tee.html">Emporio Armani T-shirt</a>
+								<a href="Armani ar.html">Emporio Armani T-shirt</a>
 							</h4>
 							<p class="product-price">جنيه 6,300</p>
 						</div>
@@ -361,14 +361,14 @@
 							<img src="img/photos/Clothing/img9a.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Black casual tee shirt.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="Black casual tee ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Black casual tee shirt.html">Black Casual T-Shirt</a>
+								<a href="Black casual tee ar.html">Black Casual T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 4,500</p>
 						</div>
@@ -382,14 +382,14 @@
 							<img src="img/photos/Clothing/img10.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Red casual.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="Red casual ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Red casual.html">Red Casual T-Shirt</a>
+								<a href="Red casual ar.html">Red Casual T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 4,500</p>
 						</div>
@@ -403,14 +403,14 @@
 							<img src="img/photos/Clothing/img11.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="multicolor gr ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Multi-color Casual T-Shirt</a>
+								<a href="multicolor gr ar.html">Multi-color Casual T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 5,400</p>
 						</div>
@@ -424,14 +424,14 @@
 							<img src="img/photos/Clothing/img19.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="lacoste ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Red Lacoste T-Shirt</a>
+								<a href="lacoste ar.html">Red Lacoste T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 4,500</p>
 						</div>
@@ -445,14 +445,14 @@
 							<img src="img/photos/Clothing/img3.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="polo tee ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Polo T-Shirt</a>
+								<a href="polo tee ar.html">Polo T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 6,300</p>
 						</div>
@@ -466,14 +466,14 @@
 							<img src="img/photos/Clothing/img20.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="tommyh ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Orange Tommy Hilfigier T-Shirt</a>
+								<a href="tommyh ar.html">Orange Tommy Hilfigier T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 4,500</p>
 						</div>
@@ -487,14 +487,14 @@
 							<img src="img/photos/Clothing/img21.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="green polo ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Green Ralph Lauren Polo T-shirt</a>
+								<a href="green polo ar.html">Green Ralph Lauren Polo T-shirt</a>
 							</h4>
 							<p class="product-price">جنيه 6,300</p>
 						</div>
@@ -508,14 +508,14 @@
 							<img src="img/photos/Clothing/img16.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="offwhite ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Off-white T-Shirt</a>
+								<a href="offwhite ar.html">Off-white T-Shirt</a>
 							</h4>
 							<p class="product-price">جنيه 6,300</p>
 						</div>
@@ -883,10 +883,10 @@
 								<a href="about.html">About Us</a>
 								<a href="contact.html">Contact Us</a>
 								<div class="tb-language dropdown pull-right">
-									<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
+									<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> العربية <i class="fa fa-angle-down color"></i></a>
 									<!-- Dropdown menu with languages -->
 									<ul class="dropdown-menu dropdown-mini" role="menu">
-										<li><a href="about arabic.html"> العربية</a></li>
+										<li><a href="index.php"> English</a></li>
 									</ul>
 								</div>
 							</div>

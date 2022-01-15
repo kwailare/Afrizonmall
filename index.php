@@ -467,14 +467,14 @@
 							<img src="img/photos/Clothing/img20.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+									<a class="btn btn-secondary btn-block" href="tommyh.html">Details</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Orange Tommy Hilfigier T-Shirt</a>
+								<a href="tommyh.html">Orange Tommy Hilfigier T-Shirt</a>
 							</h4>
 							<p class="product-price">SDG 4,500</p>
 						</div>
@@ -488,14 +488,14 @@
 							<img src="img/photos/Clothing/img21.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+									<a class="btn btn-secondary btn-block" href="green polo.html">Details</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Ralph Lauren Polo T-shirt</a>
+								<a href="green polo.html">Ralph Lauren Polo T-shirt</a>
 							</h4>
 							<p class="product-price">SDG 6,300</p>
 						</div>
@@ -509,14 +509,14 @@
 							<img src="img/photos/Clothing/img16.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+									<a class="btn btn-secondary btn-block" href="offwhite.html">Details</a>
 								</div>
 							</div>
 						</div>
 						<!-- .product-img end -->
 						<div class="product-bio">
 							<h4>
-								<a href="Tecno Droidpad.html">Off-white T-Shirt</a>
+								<a href="offwhite.html">Off-white T-Shirt</a>
 							</h4>
 							<p class="product-price">SDG 6,300</p>
 						</div>
