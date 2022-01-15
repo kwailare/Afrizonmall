@@ -188,6 +188,17 @@
 			<section class="checkout">
 
 
+				<!-- Thankyou_message --><br>
+				<div class="thankyou_message" style="display:none;background:rgb(162, 238, 168);border:none;border-radius: 40px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);width: 100%;padding: 20px; margin: 10px;"><br><br>
+				
+					<center>
+						<h1 style="color: rgb(53, 172, 73);">Thank you for shopping with us at Afrizonmall</h1>
+						<h3>We will contact you soon through your provided contact number</h3>
+						<h1 style="color: rgb(167, 114, 17);">*******</h1>
+					</center>
+					
+				  </div>
+				  
 
 				<section class="checkout-section">
 
@@ -205,7 +216,7 @@
 							<div class="accordion-group panel">
 <br>
 
-
+						
 
 			
 
@@ -360,8 +371,8 @@
 				<form class="gform pure-form pure-form-stacked" method="POST" data-email="afrizonmallsd@gmail.com"
 								action="https://script.google.com/macros/s/AKfycbxQ0E23rghaHUnsGrzuYTGbqBKmWTlqffls4pT2GrDWcj2zW9-ccNpC5c_UZ_8nmcq4/exec">
                  <a class="accordion-btn open" data-toggle="collapse" href="#collapse-one"></a></h2>
-
-									<div class="accordion-body collapse in" id="collapse-one">
+							<div class="form-elements">
+									<div class="accordion-body collapse" id="collapse-one">
 
 										<div class="row accordion-body-wrapper">
 
@@ -413,17 +424,27 @@
 										
 											<br>
 											<br>
+<<<<<<< HEAD
 											<button style="float: right;width: 30%;height: 70px;font-size: 2.1em; color: white; margin-right: 48px;border-radius: 30%; background-color: teal; border:double;">CONFIRM ORDER</button><br></a>
 											<!-- Thankyou_message --><br>
 							<div class="thankyou_message" style="display:none;background:none;border:8px solid gray;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br><br>
 								<h1>Thanks for shopping with us! We'll contact you shortly</h1>
 								<h1>*******</h1>
 							  </div>
+=======
+											<button style="float: right;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);width: 30%;height: 70px;font-size: 2.1em; color: white; margin-right: 48px;border-radius: 5%; background-color: teal; border:none;">CONFIRM ORDER</button><br></a>
+											
+											
+											
+>>>>>>> 68b919e452b2834439855d970fda6bf44c8027e1
 										</div>
 									</div>
 								</div>
+								</div>
+
 								
 								</form>
+								
 
 							</div>
 							<script data-cfasync="false" type="text/javascript">
@@ -501,11 +522,11 @@
 								   xhr.onreadystatechange = function() {
 									   console.log(xhr.status, xhr.statusText);
 									   console.log(xhr.responseText);
-									   var formElements = form.querySelector(".form-elements")
+									   var formElements = document.querySelector(".checkout-section")
 									   if (formElements) {
 										 formElements.style.display = "none"; // hide form
 									   }
-									   var thankYouMessage = form.querySelector(".thankyou_message");
+									   var thankYouMessage = document.querySelector(".thankyou_message");
 									   if (thankYouMessage) {
 										 thankYouMessage.style.display = "block";
 									   }
