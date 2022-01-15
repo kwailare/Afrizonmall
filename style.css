@@ -5148,6 +5148,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .share-social-icons {
     margin-top: 15px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
 }
 .share-social-icons a {
     margin: 0 5px 5px 0;
@@ -5178,7 +5181,7 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: #2478ba;
     border-color: #2478ba;
 }
-.share-social-icons .fa-pinterest:hover {
+.share-social-icons .fa-instagram:hover {
     background-color: #cb2320;
     border-color: #cb2320;
 }

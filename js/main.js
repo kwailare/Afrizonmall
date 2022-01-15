@@ -204,3 +204,33 @@ $(document).ready(function(){
 		}, 5000);
 	});
 });
+
+// the social media Share buttons code is here Musty.
+
+const facebookBtn = document.querySelector(".facebook-btn");
+const twitterBtn = document.querySelector(".twitter-btn");
+const instagramBtn = document.querySelector(".instagram-btn");
+
+
+function init() {
+
+  let postUrl = encodeURI(document.location.href);
+  let postTitle = encodeURI("Hi everyone, Please check this out: ");
+  facebookBtn.setAttribute(
+    "href",
+    `https://www.facebook.com/sharer.php?u=${postUrl}`
+  );
+
+  twitterBtn.setAttribute(
+    "href",
+    `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
+  );
+
+  instagramBtn.setAttribute(
+    "href",
+    `https://www.instagram.com/afrizonmall/`
+  );
+
+}
+
+init();
