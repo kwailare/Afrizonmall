@@ -533,30 +533,7 @@
 
 			<h1 id="Shirts" style="color: #a39d94;">SHIRTS</h1>
 			<div id="shop-all" class="row">
-				<!-- Product Item #1 -->
-							<!-- .product-item end -->
-
-				<!-- Product Item #3 -->
-				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
-					<div class="product-img">
-					<img src="img/photos/Clothing/img22.png" alt="product">
-						<div class="product-hover">
-							<div class="product-cart">
-								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
-							</div>
-						</div>
-					</div>
-					<!-- .product-img end -->
-					<div class="product-bio">
-						<h4>
-							<a href="Tecno Droidpad.html">Medium Long Sleeve Roberto Carally shirt</a>
-						</h4>
-						<p class="product-price">SDG 5,400</p>
-					</div>
-					<!-- .product-bio end -->
 			
-				</div>
-				<!-- .product-item end -->
 
 				<!-- Product Item #4 -->
 				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
@@ -564,14 +541,14 @@
 					<img src="img/photos/Clothing/img23.png" alt="product">
 						<div class="product-hover">
 							<div class="product-cart">
-								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+								<a class="btn btn-secondary btn-block" href="large shirt.html">Details</a>
 							</div>
 						</div>
 					</div>
 					<!-- .product-img end -->
 					<div class="product-bio">
 						<h4>
-							<a href="Tecno Droidpad.html">Large Short Sleeve Roberto Carally Shirt</a>
+							<a href="large shirt.html">Large Short Sleeve Roberto Carally Shirt</a>
 						</h4>
 						<p class="product-price">SDG 5,400</p>
 					</div>
