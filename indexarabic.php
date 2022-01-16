@@ -246,7 +246,7 @@
 							<img src="img/photos/Clothing/img1.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Nike tee shirt.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="Nike tee ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
@@ -268,7 +268,7 @@
 							<img src="img/photos/Clothing/img2.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
-									<a class="btn btn-secondary btn-block" href="Dior tee shirt.html">تفاصيل</a>
+									<a class="btn btn-secondary btn-block" href="Dior tee ar.html">تفاصيل</a>
 								</div>
 							</div>
 						</div>
