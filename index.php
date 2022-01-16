@@ -121,24 +121,21 @@
 				</div>
 				<div class="col-md-6 col-md-offset-2 col-sm-5 col-sm-offset-3 hidden-xs">
 					<!-- Search Form -->
-					<div class="header-search">
-						<form action="search.php" method="GET">
+					<!--<div class="header-search">
+						<form action="search.php" method="post">
 							<!-- Input Group -->
-							<div class="input-group">
-								<input type="text" name="srch" required value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>" class="form-control" placeholder="Search..." autocomplete="on">
+							<!--<div class="input-group">
+								<input type="text" name="srch" class="form-control" placeholder="Search..." autocomplete="on">
 										<span class="input-group-btn">
-										<button type="submit" class="btn btn-color"><i class="fa fa-search color"></i></button>
+										<button class="btn btn-color" type="submit" name="submit"><i class="fa fa-search color"></i></button>	
 										</span>
 							</div>
 
 						</form>
-
-
-			
 	
 
 
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -588,14 +585,14 @@
 					<img src="img/photos/Clothing/Flower shirt.png" alt="product">
 						<div class="product-hover">
 							<div class="product-cart">
-								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+								<a class="btn btn-secondary btn-block" href="flower shirt.html">Details</a>
 							</div>
 						</div>
 					</div>
 					<!-- .product-img end -->
 					<div class="product-bio">
 						<h4>
-							<a href="Tecno Droidpad.html">Flower Long Sleeve Shirt</a>
+							<a href="flower shirt.html">Flower Long Sleeve Shirt</a>
 						</h4>
 						<p class="product-price">SDG 5,400</p>
 					</div>
@@ -619,14 +616,14 @@
 			<img src="img/photos/Clothing/img18.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+						<a class="btn btn-secondary btn-block" href="nike joggers.html">Details</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Black Nike Joggers</a>
+					<a href="nike joggers.html">Black Nike Joggers</a>
 				</h4>
 				<p class="product-price">SDG 8,100</p>
 			</div>
@@ -641,14 +638,14 @@
 			<img src="img/photos/Clothing/img13.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+						<a class="btn btn-secondary btn-block" href="black joggers.html">Details</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Casual Black Joggers</a>
+					<a href="black joggers.html">Casual Black Joggers</a>
 				</h4>
 				<p class="product-price">SDG 8,100</p>
 			</div>
@@ -663,14 +660,14 @@
 			<img src="img/photos/Clothing/img15.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+						<a class="btn btn-secondary btn-block" href="vans joggers.html">Details</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Vans Joggers</a>
+					<a href="vans joggers.html">Vans Joggers</a>
 				</h4>
 				<p class="product-price">SDG 8,100</p>
 			</div>
@@ -685,14 +682,14 @@
 				<img src="img/photos/Clothing/img27.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+						<a class="btn btn-secondary btn-block" href="tommyh joggers.html">Details</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Tommy Hilfiger Joggers</a>
+					<a href="tommyh joggers.html">Tommy Hilfiger Joggers</a>
 				</h4>
 				<p class="product-price">SDG 8,100</p>
 			</div>
@@ -707,14 +704,14 @@
 				<img src="img/photos/Clothing/img28.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">Details</a>
+						<a class="btn btn-secondary btn-block" href="casual joggers.html">Details</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Casual Joggers</a>
+					<a href="casual joggers.html">Casual Joggers</a>
 				</h4>
 				<p class="product-price">SDG 8,100</p>
 			</div>
@@ -849,12 +846,21 @@
 							<div class="footer-links">
 								<form action="search.php" method="post">
 									<!-- Input Group -->
-									<div class="input-group">
-										<input type="text" name="srch" class="form-control" placeholder="Search..." autocomplete="off">
-												<span class="input-group-btn">
-												<button class="btn btn-color" type="submit" name="submit"><i class="fa fa-search color"></i></button>	
-												</span>
-									</div>
+									<!--<div class="header-search">
+						<form action="search.php" method="post">
+							<!-- Input Group -->
+							<!--<div class="input-group">
+								<input type="text" name="srch" class="form-control" placeholder="Search..." autocomplete="on">
+										<span class="input-group-btn">
+										<button class="btn btn-color" type="submit" name="submit"><i class="fa fa-search color"></i></button>	
+										</span>
+							</div>
+
+						</form>
+	
+
+
+					</div> -->
 		
 								</form>
 								<a href="Terms and conditions.html">Terms & Condition</a>

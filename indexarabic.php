@@ -121,24 +121,21 @@
 				</div>
 				<div class="col-md-6 col-md-offset-2 col-sm-5 col-sm-offset-3 hidden-xs">
 					<!-- Search Form -->
-					<div class="header-search">
-						<form action="search.php" method="GET">
+					<!--<div class="header-search">
+						<form action="search.php" method="post">
 							<!-- Input Group -->
-							<div class="input-group">
-								<input type="text" name="srch" required value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>" class="form-control" placeholder="Search..." autocomplete="on">
+							<!--<div class="input-group">
+								<input type="text" name="srch" class="form-control" placeholder="Search..." autocomplete="on">
 										<span class="input-group-btn">
-										<button type="submit" class="btn btn-color"><i class="fa fa-search color"></i></button>
+										<button class="btn btn-color" type="submit" name="submit"><i class="fa fa-search color"></i></button>	
 										</span>
 							</div>
 
 						</form>
-
-
-			
 	
 
 
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -535,42 +532,20 @@
 				<!-- Product Item #1 -->
 							<!-- .product-item end -->
 
-				<!-- Product Item #3 -->
-				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
-					<div class="product-img">
-					<img src="img/photos/Clothing/img22.png" alt="product">
-						<div class="product-hover">
-							<div class="product-cart">
-								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
-							</div>
-						</div>
-					</div>
-					<!-- .product-img end -->
-					<div class="product-bio">
-						<h4>
-							<a href="Tecno Droidpad.html">Medium Long Sleeve Roberto Carally shirt</a>
-						</h4>
-						<p class="product-price">جنيه 5,400</p>
-					</div>
-					<!-- .product-bio end -->
-			
-				</div>
-				<!-- .product-item end -->
-
 				<!-- Product Item #4 -->
 				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 					<div class="product-img">
 					<img src="img/photos/Clothing/img23.png" alt="product">
 						<div class="product-hover">
 							<div class="product-cart">
-								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								<a class="btn btn-secondary btn-block" href="large shirt ar.html">تفاصيل</a>
 							</div>
 						</div>
 					</div>
 					<!-- .product-img end -->
 					<div class="product-bio">
 						<h4>
-							<a href="Tecno Droidpad.html">Large Short Sleeve Roberto Carally Shirt</a>
+							<a href="large shirt ar.html">Large Short Sleeve Roberto Carally Shirt</a>
 						</h4>
 						<p class="product-price">جنيه 5,400</p>
 					</div>
@@ -585,14 +560,14 @@
 					<img src="img/photos/Clothing/img24.png" alt="product">
 						<div class="product-hover">
 							<div class="product-cart">
-								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								<a class="btn btn-secondary btn-block" href="slimfit ar.html">تفاصيل</a>
 							</div>
 						</div>
 					</div>
 					<!-- .product-img end -->
 					<div class="product-bio">
 						<h4>
-							<a href="Tecno Droidpad.html">AVA Slim-fit Long Sleeve Shirt</a>
+							<a href="slimfit ar.html">AVA Slim-fit Long Sleeve Shirt</a>
 						</h4>
 						<p class="product-price">جنيه 5,400</p>
 					</div>
@@ -610,14 +585,14 @@
 					<img src="img/photos/Clothing/Flower shirt.png" alt="product">
 						<div class="product-hover">
 							<div class="product-cart">
-								<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+								<a class="btn btn-secondary btn-block" href="flower shirt ar.html">تفاصيل</a>
 							</div>
 						</div>
 					</div>
 					<!-- .product-img end -->
 					<div class="product-bio">
 						<h4>
-							<a href="Tecno Droidpad.html">Flower Long Sleeve Shirt</a>
+							<a href="flower shirt ar.html">Flower Long Sleeve Shirt</a>
 						</h4>
 						<p class="product-price">جنيه 5,400</p>
 					</div>
@@ -641,14 +616,14 @@
 			<img src="img/photos/Clothing/img18.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+						<a class="btn btn-secondary btn-block" href="nike joggers ar.html">تفاصيل</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Black Nike Joggers</a>
+					<a href="nike joggers ar.html">Black Nike Joggers</a>
 				</h4>
 				<p class="product-price">جنيه 8,100</p>
 			</div>
@@ -663,14 +638,14 @@
 			<img src="img/photos/Clothing/img13.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+						<a class="btn btn-secondary btn-block" href="black joggers ar.html">تفاصيل</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Casual Black Joggers</a>
+					<a href="black joggers ar.html">Casual Black Joggers</a>
 				</h4>
 				<p class="product-price">جنيه 8,100</p>
 			</div>
@@ -685,14 +660,14 @@
 			<img src="img/photos/Clothing/img15.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+						<a class="btn btn-secondary btn-block" href="vans joggers ar.html">تفاصيل</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Vans Joggers</a>
+					<a href="vans joggers ar.html">Vans Joggers</a>
 				</h4>
 				<p class="product-price">جنيه 8,100</p>
 			</div>
@@ -707,14 +682,14 @@
 				<img src="img/photos/Clothing/img27.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+						<a class="btn btn-secondary btn-block" href="tommyh joggers ar.html">تفاصيل</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Tommy Hilfiger Joggers</a>
+					<a href="tommyh joggers ar.html">Tommy Hilfiger Joggers</a>
 				</h4>
 				<p class="product-price">جنيه 8,100</p>
 			</div>
@@ -729,14 +704,14 @@
 				<img src="img/photos/Clothing/img28.png" alt="product">
 				<div class="product-hover">
 					<div class="product-cart">
-						<a class="btn btn-secondary btn-block" href="Tecno Droidpad.html">تفاصيل</a>
+						<a class="btn btn-secondary btn-block" href="casual joggers ar.html">تفاصيل</a>
 					</div>
 				</div>
 			</div>
 			<!-- .product-img end -->
 			<div class="product-bio">
 				<h4>
-					<a href="Tecno Droidpad.html">Casual Joggers</a>
+					<a href="casual joggers ar.html">Casual Joggers</a>
 				</h4>
 				<p class="product-price">جنيه 8,100</p>
 			</div>
@@ -869,16 +844,21 @@
 					<div class="footer-bottom-navigation">
 						<div class="cell-view">
 							<div class="footer-links">
-								<form action="search.php" method="post">
-									<!-- Input Group -->
-									<div class="input-group">
-										<input type="text" name="srch" class="form-control" placeholder="Search..." autocomplete="off">
-												<span class="input-group-btn">
-												<button class="btn btn-color" type="submit" name="submit"><i class="fa fa-search color"></i></button>	
-												</span>
-									</div>
-		
-								</form>
+								<!--<div class="header-search">
+						<form action="search.php" method="post">
+							<!-- Input Group -->
+							<!--<div class="input-group">
+								<input type="text" name="srch" class="form-control" placeholder="Search..." autocomplete="on">
+										<span class="input-group-btn">
+										<button class="btn btn-color" type="submit" name="submit"><i class="fa fa-search color"></i></button>	
+										</span>
+							</div>
+
+						</form>
+	
+
+
+					</div> -->
 								<a href="Terms and conditions.html">Terms & Condition</a>
 								<a href="about.html">About Us</a>
 								<a href="contact.html">Contact Us</a>
