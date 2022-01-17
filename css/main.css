@@ -85,7 +85,7 @@ html {
 .success:before{
     content: '';
     position: absolute;
-    background: url(/img/check-circle-regular.svg) no-repeat;
+    background: url(images/check-circle-regular.svg) no-repeat;
     left: 0;
     right: 0;
     margin: 0 auto;
