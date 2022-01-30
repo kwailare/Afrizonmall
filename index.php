@@ -233,7 +233,32 @@
 				</div>
 			</div>
 		</div>
+		<aside class="col-md-3 sidebar">
+
+				<div class="widget category-widget">
+
+					<h3>Categories</h3>
+
+					<ul id="category-widget">
+
+						<li class="open"><a href="#Tees">Tees</a>
+						</li>
+
+						<li class="open"><a href="#Shirts">Shirts</a>
+						</li>
+
+						<li class="open"><a href="#Joggers">Joggers</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- /.category widget -->
+
+				<!-- /.widget -->
+
+			</aside>
 	</section>
+	
 	<!-- end new collection directory -->
 			</br>
 				<hr/>
@@ -244,7 +269,7 @@
 					<!-- Product Item #1 -->
 					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img1.png" alt="product">
+							<img src="img/photos/Clothing/Nike.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Nike tee shirt.html">Details</a>
@@ -256,7 +281,7 @@
 							<h4>
 								<a href="Nike tee shirt.html">Nike T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 4,500</p>
+							<p class="product-price">SDG 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -266,7 +291,7 @@
 					<!-- Product Item #2 -->
 					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img2.png" alt="product">
+							<img src="img/photos/Clothing/dior tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Dior tee shirt.html">Details</a>
@@ -278,7 +303,7 @@
 							<h4>
 								<a href="Dior tee shirt.html">Dior T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 6,300</p>
+							<p class="product-price">SDG 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -288,7 +313,7 @@
 					<!-- Product Item #3 -->
 					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img4.png" alt="product">
+							<img src="img/photos/Clothing/nirvana.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Nirvana tee shirt.html">Details</a>
@@ -300,7 +325,7 @@
 							<h4>
 								<a href="Nirvana tee shirt.html">Nirvana Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 4,500</p>
+							<p class="product-price">SDG 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -309,7 +334,7 @@
 					<!-- Product Item #4 -->
 					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img5.png" alt="product">
+							<img src="img/photos/Clothing/multicolor tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="multicolor tee.html">Details</a>
@@ -321,7 +346,7 @@
 							<h4>
 								<a href="multicolor tee.html">Multi-color Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 5,400</p>
+							<p class="product-price">SDG 6,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -335,7 +360,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img6.png" alt="product">
+							<img src="img/photos/Clothing/armani tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Armani tee.html">Details</a>
@@ -347,7 +372,7 @@
 							<h4>
 								<a href="Armani tee.html">Emporio Armani T-shirt</a>
 							</h4>
-							<p class="product-price">SDG 6,300</p>
+							<p class="product-price">SDG 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -356,7 +381,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img9a.png" alt="product">
+							<img src="img/photos/Clothing/black casual.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Black casual tee shirt.html">Details</a>
@@ -368,7 +393,7 @@
 							<h4>
 								<a href="Black casual tee shirt.html">Black Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 4,500</p>
+							<p class="product-price">SDG 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -377,7 +402,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img10.png" alt="product">
+							<img src="img/photos/Clothing/red casual.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Red casual.html">Details</a>
@@ -389,7 +414,7 @@
 							<h4>
 								<a href="Red casual.html">Red Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 4,500</p>
+							<p class="product-price">SDG 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -398,7 +423,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img11.png" alt="product">
+							<img src="img/photos/Clothing/multigr tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="multicolor gr.html">Details</a>
@@ -410,7 +435,7 @@
 							<h4>
 								<a href="multicolor gr.html">Multi-color Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 5,400</p>
+							<p class="product-price">SDG 6,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -419,7 +444,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img19.png" alt="product">
+							<img src="img/photos/Clothing/lacoste.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="lacoste.html">Details</a>
@@ -431,7 +456,7 @@
 							<h4>
 								<a href="lacoste.html">Red Lacoste T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 4,500</p>
+							<p class="product-price">SDG 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -440,7 +465,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img3.png" alt="product">
+							<img src="img/photos/Clothing/polo tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="polo tee.html">Details</a>
@@ -452,7 +477,7 @@
 							<h4>
 								<a href="polo tee.html">Polo T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 6,300</p>
+							<p class="product-price">SDG 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -461,7 +486,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img20.png" alt="product">
+							<img src="img/photos/Clothing/tommyh.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="tommyh.html">Details</a>
@@ -473,7 +498,7 @@
 							<h4>
 								<a href="tommyh.html">Orange Tommy Hilfigier T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 4,500</p>
+							<p class="product-price">SDG 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -482,7 +507,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img21.png" alt="product">
+							<img src="img/photos/Clothing/green polo.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="green polo.html">Details</a>
@@ -494,7 +519,7 @@
 							<h4>
 								<a href="green polo.html">Ralph Lauren Polo T-shirt</a>
 							</h4>
-							<p class="product-price">SDG 6,300</p>
+							<p class="product-price">SDG 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -503,7 +528,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img16.png" alt="product">
+							<img src="img/photos/Clothing/offwhite.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="offwhite.html">Details</a>
@@ -515,7 +540,7 @@
 							<h4>
 								<a href="offwhite.html">Off-white T-Shirt</a>
 							</h4>
-							<p class="product-price">SDG 6,300</p>
+							<p class="product-price">SDG 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -547,7 +572,7 @@
 						<h4>
 							<a href="large shirt.html">Large Short Sleeve Roberto Carally Shirt</a>
 						</h4>
-						<p class="product-price">SDG 5,400</p>
+						<p class="product-price">SDG 6,000</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -557,7 +582,7 @@
 				<!-- Product Item #5 -->
 				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 					<div class="product-img">
-					<img src="img/photos/Clothing/img24.png" alt="product">
+					<img src="img/photos/Clothing/slimfit shirt.png" alt="product">
 						<div class="product-hover">
 							<div class="product-cart">
 								<a class="btn btn-secondary btn-block" href="slimfit shirt.html">Details</a>
@@ -569,7 +594,7 @@
 						<h4>
 							<a href="slimfit shirt.html">AVA Slim-fit Long Sleeve Shirt</a>
 						</h4>
-						<p class="product-price">SDG 5,400</p>
+						<p class="product-price">SDG 6,000</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -594,7 +619,7 @@
 						<h4>
 							<a href="flower shirt.html">Flower Long Sleeve Shirt</a>
 						</h4>
-						<p class="product-price">SDG 5,400</p>
+						<p class="product-price">SDG 6,000</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -625,7 +650,7 @@
 				<h4>
 					<a href="nike joggers.html">Black Nike Joggers</a>
 				</h4>
-				<p class="product-price">SDG 8,100</p>
+				<p class="product-price">SDG 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -647,7 +672,7 @@
 				<h4>
 					<a href="black joggers.html">Casual Black Joggers</a>
 				</h4>
-				<p class="product-price">SDG 8,100</p>
+				<p class="product-price">SDG 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -669,7 +694,7 @@
 				<h4>
 					<a href="vans joggers.html">Vans Joggers</a>
 				</h4>
-				<p class="product-price">SDG 8,100</p>
+				<p class="product-price">SDG 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -691,7 +716,7 @@
 				<h4>
 					<a href="tommyh joggers.html">Tommy Hilfiger Joggers</a>
 				</h4>
-				<p class="product-price">SDG 8,100</p>
+				<p class="product-price">SDG 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -713,7 +738,7 @@
 				<h4>
 					<a href="casual joggers.html">Casual Joggers</a>
 				</h4>
-				<p class="product-price">SDG 8,100</p>
+				<p class="product-price">SDG 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -747,30 +772,7 @@
 
 			</div>
 
-			<aside class="col-md-3 sidebar">
-
-				<div class="widget category-widget">
-
-					<h3>Categories</h3>
-
-					<ul id="category-widget">
-
-						<li class="open"><a href="#Tees">Tees</a>
-						</li>
-
-						<li class="open"><a href="#Shirts">Shirts</a>
-						</li>
-
-						<li class="open"><a href="#Joggers">Joggers</a>
-						</li>
-						
-					</ul>
-				</div>
-				<!-- /.category widget -->
-
-				<!-- /.widget -->
-
-			</aside>
+			
 			<!-- /.col-md-3 -->
 		</div>
 	</div>

@@ -232,6 +232,30 @@
 				</div>
 			</div>
 		</div>
+		<aside class="col-md-3 sidebar">
+
+				<div class="widget category-widget">
+
+					<h3>Categories</h3>
+
+					<ul id="category-widget">
+
+						<li class="open"><a href="#Tees">المحملات</a>
+						</li>
+
+						<li class="open"><a href="#Shirts">قمصان</a>
+						</li>
+
+						<li class="open"><a href="#Joggers">بنطال رياضة</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- /.category widget -->
+
+				<!-- /.widget -->
+
+			</aside>
 	</section>
 	<!-- end new collection directory -->
 			</br>
@@ -243,7 +267,7 @@
 					<!-- Product Item #1 -->
 					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img1.png" alt="product">
+							<img src="img/photos/Clothing/Nike.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Nike tee ar.html">تفاصيل</a>
@@ -255,7 +279,7 @@
 							<h4>
 								<a href="Nike tee ar.html">Nike T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه  4,500 </p>
+							<p class="product-price">جنيه  5,000 </p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -265,7 +289,7 @@
 					<!-- Product Item #2 -->
 					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img2.png" alt="product">
+							<img src="img/photos/Clothing/dior tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Dior tee ar.html">تفاصيل</a>
@@ -277,7 +301,7 @@
 							<h4>
 								<a href="Dior tee ar.html">Dior T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 6,300</p>
+							<p class="product-price">جنيه 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -287,7 +311,7 @@
 					<!-- Product Item #3 -->
 					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img4.png" alt="product">
+							<img src="img/photos/Clothing/Nirvana.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Nirvana tee ar.html">تفاصيل</a>
@@ -299,7 +323,7 @@
 							<h4>
 								<a href="Nirvana tee ar.html">Nirvana Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 4,500</p>
+							<p class="product-price">جنيه 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -308,7 +332,7 @@
 					<!-- Product Item #4 -->
 					<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img5.png" alt="product">
+							<img src="img/photos/Clothing/multicolor tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="multicolor tee ar.html">تفاصيل</a>
@@ -320,7 +344,7 @@
 							<h4>
 								<a href="multicolor tee ar.html">Multi-color Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 5,400</p>
+							<p class="product-price">جنيه 6,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -334,7 +358,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img6.png" alt="product">
+							<img src="img/photos/Clothing/armani tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Armani ar.html">تفاصيل</a>
@@ -346,7 +370,7 @@
 							<h4>
 								<a href="Armani ar.html">Emporio Armani T-shirt</a>
 							</h4>
-							<p class="product-price">جنيه 6,300</p>
+							<p class="product-price">جنيه 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -355,7 +379,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img9a.png" alt="product">
+							<img src="img/photos/Clothing/black casual.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Black casual tee ar.html">تفاصيل</a>
@@ -367,7 +391,7 @@
 							<h4>
 								<a href="Black casual tee ar.html">Black Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 4,500</p>
+							<p class="product-price">جنيه 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -376,7 +400,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img10.png" alt="product">
+							<img src="img/photos/Clothing/red casual.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="Red casual ar.html">تفاصيل</a>
@@ -388,7 +412,7 @@
 							<h4>
 								<a href="Red casual ar.html">Red Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 4,500</p>
+							<p class="product-price">جنيه 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -397,7 +421,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img11.png" alt="product">
+							<img src="img/photos/Clothing/multigr tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="multicolor gr ar.html">تفاصيل</a>
@@ -409,7 +433,7 @@
 							<h4>
 								<a href="multicolor gr ar.html">Multi-color Casual T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 5,400</p>
+							<p class="product-price">جنيه 6,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -418,7 +442,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img19.png" alt="product">
+							<img src="img/photos/Clothing/lacoste.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="lacoste ar.html">تفاصيل</a>
@@ -430,7 +454,7 @@
 							<h4>
 								<a href="lacoste ar.html">Red Lacoste T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 4,500</p>
+							<p class="product-price">جنيه 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -439,7 +463,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img3.png" alt="product">
+							<img src="img/photos/Clothing/polo tee.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="polo tee ar.html">تفاصيل</a>
@@ -451,7 +475,7 @@
 							<h4>
 								<a href="polo tee ar.html">Polo T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 6,300</p>
+							<p class="product-price">جنيه 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -460,7 +484,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img20.png" alt="product">
+							<img src="img/photos/Clothing/tommyh.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="tommyh ar.html">تفاصيل</a>
@@ -472,7 +496,7 @@
 							<h4>
 								<a href="tommyh ar.html">Orange Tommy Hilfigier T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 4,500</p>
+							<p class="product-price">جنيه 5,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -481,7 +505,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img21.png" alt="product">
+							<img src="img/photos/Clothing/green polo.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="green polo ar.html">تفاصيل</a>
@@ -493,7 +517,7 @@
 							<h4>
 								<a href="green polo ar.html">Green Ralph Lauren Polo T-shirt</a>
 							</h4>
-							<p class="product-price">جنيه 6,300</p>
+							<p class="product-price">جنيه 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -502,7 +526,7 @@
 						<!-- Product Item #4 -->
 						<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 						<div class="product-img">
-							<img src="img/photos/Clothing/img16.png" alt="product">
+							<img src="img/photos/Clothing/offwhite.png" alt="product">
 							<div class="product-hover">
 								<div class="product-cart">
 									<a class="btn btn-secondary btn-block" href="offwhite ar.html">تفاصيل</a>
@@ -514,7 +538,7 @@
 							<h4>
 								<a href="offwhite ar.html">Off-white T-Shirt</a>
 							</h4>
-							<p class="product-price">جنيه 6,300</p>
+							<p class="product-price">جنيه 7,000</p>
 						</div>
 						<!-- .product-bio end -->
 				
@@ -547,7 +571,7 @@
 						<h4>
 							<a href="large shirt ar.html">Large Short Sleeve Roberto Carally Shirt</a>
 						</h4>
-						<p class="product-price">جنيه 5,400</p>
+						<p class="product-price">جنيه 6,000</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -557,7 +581,7 @@
 				<!-- Product Item #5 -->
 				<div class="col-xs-12 col-sm-6 col-md-4 product-item filter-best">
 					<div class="product-img">
-					<img src="img/photos/Clothing/img24.png" alt="product">
+					<img src="img/photos/Clothing/slimfit shirt.png" alt="product">
 						<div class="product-hover">
 							<div class="product-cart">
 								<a class="btn btn-secondary btn-block" href="slimfit ar.html">تفاصيل</a>
@@ -569,7 +593,7 @@
 						<h4>
 							<a href="slimfit ar.html">AVA Slim-fit Long Sleeve Shirt</a>
 						</h4>
-						<p class="product-price">جنيه 5,400</p>
+						<p class="product-price">جنيه 6,000</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -594,7 +618,7 @@
 						<h4>
 							<a href="flower shirt ar.html">Flower Long Sleeve Shirt</a>
 						</h4>
-						<p class="product-price">جنيه 5,400</p>
+						<p class="product-price">جنيه 6,000</p>
 					</div>
 					<!-- .product-bio end -->
 			
@@ -625,7 +649,7 @@
 				<h4>
 					<a href="nike joggers ar.html">Black Nike Joggers</a>
 				</h4>
-				<p class="product-price">جنيه 8,100</p>
+				<p class="product-price">جنيه 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -647,7 +671,7 @@
 				<h4>
 					<a href="black joggers ar.html">Casual Black Joggers</a>
 				</h4>
-				<p class="product-price">جنيه 8,100</p>
+				<p class="product-price">جنيه 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -669,7 +693,7 @@
 				<h4>
 					<a href="vans joggers ar.html">Vans Joggers</a>
 				</h4>
-				<p class="product-price">جنيه 8,100</p>
+				<p class="product-price">جنيه 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -691,7 +715,7 @@
 				<h4>
 					<a href="tommyh joggers ar.html">Tommy Hilfiger Joggers</a>
 				</h4>
-				<p class="product-price">جنيه 8,100</p>
+				<p class="product-price">جنيه 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -713,7 +737,7 @@
 				<h4>
 					<a href="casual joggers ar.html">Casual Joggers</a>
 				</h4>
-				<p class="product-price">جنيه 8,100</p>
+				<p class="product-price">جنيه 9,000</p>
 			</div>
 			<!-- .product-bio end -->
 	
@@ -747,30 +771,7 @@
 
 			</div>
 
-			<aside class="col-md-3 sidebar">
-
-				<div class="widget category-widget">
-
-					<h3>Categories</h3>
-
-					<ul id="category-widget">
-
-						<li class="open"><a href="#Tees">المحملات</a>
-						</li>
-
-						<li class="open"><a href="#Shirts">قمصان</a>
-						</li>
-
-						<li class="open"><a href="#Joggers">بنطال رياضة</a>
-						</li>
-						
-					</ul>
-				</div>
-				<!-- /.category widget -->
-
-				<!-- /.widget -->
-
-			</aside>
+			
 			<!-- /.col-md-3 -->
 		</div>
 	</div>
